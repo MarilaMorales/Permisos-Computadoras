@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "parcel": "^2.12.0"
+  },
+  "name": "premisos-computadoras",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "server": " json-server --watch db.json --port 3001",
+    "start": "npx parcel src/Bienvenido/Bienvenido.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
