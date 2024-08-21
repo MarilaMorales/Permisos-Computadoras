@@ -11,6 +11,17 @@
       "id": "e20f",
       "nombre": "Naruto",
       "correo": "naruto@gmail.com"
+    },
+    {
+      "id": "7b10",
+      "nombre": "lisa",
+      "correo": "limones@gmail.com"
+    },
+    {
+      "id": "f6b5",
+      "nombre": "Maria",
+      "correo": "maria@gmail.com",
+      "password": "8787"
     }
   ]
 }
