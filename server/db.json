@@ -1,7 +1,16 @@
 {
-    "users": [
-     
-    ]
-  }
-  
-  
+  "users": [
+    {
+      "id": "86e8",
+      "nombre": "hielo li",
+      "correo": "hielo@gmail.com"
+    }
+  ],
+  "admins": [
+    {
+      "id": "e20f",
+      "nombre": "Naruto",
+      "correo": "naruto@gmail.com"
+    }
+  ]
+}
