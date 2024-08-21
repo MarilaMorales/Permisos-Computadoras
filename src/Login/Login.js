@@ -19,4 +19,7 @@ loginButton.addEventListener("click" , function () {
     }else{
         alert(" Error en ingreso de datos")
     }
+
+    emailInput.value = "";
+    passwordInput.value = "";
 })
