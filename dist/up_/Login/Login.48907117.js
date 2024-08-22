@@ -599,7 +599,7 @@ loginButton.addEventListener("click", async function() {
         if (user) {
             if (user.password === passwordValue) {
                 alert("\xa1\xc9xito! Usuario normal entrando.");
-                window.location.href = "http://127.0.0.1:5500/Permisos-Computadoras/src/Estudiantes/Estudiantes.html";
+                window.location.href = "http://127.0.0.1:5500/Permisos-Computadoras/http://127.0.0.1:5500/Permisos-Computadoras/src/Estudiantes/Estudiantes.html/Estudiantes/Estudiantes.html";
             } else alert("Contrase\xf1a incorrecta.");
         } else {
             // Si no se encuentra en los usuarios, buscar en la lista de administradores
@@ -623,6 +623,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "GetAdmins", ()=>GetAdmins);
 parcelHelpers.export(exports, "getUsers", ()=>getUsers);
+parcelHelpers.export(exports, "getPermisos", ()=>getPermisos);
 async function getUsers() {
     try {
         const response = await fetch("http://localhost:3001/users", {
@@ -648,6 +649,22 @@ async function GetAdmins() {
         return dataAdmin;
     } catch (error) {
         console.error("No sirve la cochinada de este fetch", error);
+    }
+}
+async function getPermisos() {
+    try {
+        let response = await fetch("http://localhost:3001/permisos", {
+            method: "GET",
+            headers: {
+                "Content-Type": "application/json"
+            }
+        });
+        if (!response.ok) throw new Error("Error al obtener solicitudes");
+        let permisos = await response.json();
+        return permisos;
+    } catch (error) {
+        console.error("Error al obtener solicitudes:", error);
+        throw error;
     }
 }
 

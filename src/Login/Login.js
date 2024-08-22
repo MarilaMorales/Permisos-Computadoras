@@ -18,7 +18,7 @@ loginButton.addEventListener("click", async function () {
         if (user) {
             if (user.password === passwordValue) {
                 alert("¡Éxito! Usuario normal entrando.");
-                window.location.href="http://127.0.0.1:5500/Permisos-Computadoras/src/Estudiantes/Estudiantes.html"
+                window.location.href="http://127.0.0.1:5500/Permisos-Computadoras/http://127.0.0.1:5500/Permisos-Computadoras/src/Estudiantes/Estudiantes.html/Estudiantes/Estudiantes.html"
             } else {
                 alert("Contraseña incorrecta.");
             }

@@ -46,6 +46,15 @@
       "fechaRegreso": "2024-08-23",
       "codigoComputadora": "JD667S2",
       "condicionesAceptadas": true
+    },
+    {
+      "id": "84e2",
+      "usuario": "carlos lopez",
+      "sede": "Sede El Huerto",
+      "fechaSalida": "2024-08-22",
+      "fechaRegreso": "2024-08-23",
+      "codigoComputadora": "JD657S2",
+      "condicionesAceptadas": true
     }
   ]
 }
