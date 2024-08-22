@@ -609,7 +609,7 @@ btnEnviar.addEventListener("click", async function(event) {
     }
     // Guardar el nuevo usuario en el servidor
     try {
-        await (0, _postJs.postUser)(usuario, correo);
+        await (0, _postJs.postUser)(usuario, correo, password);
         alert("Usuario registrado.");
     // window.location.href = "../LogIn/LogIn.html";
     } catch (error) {
@@ -651,7 +651,7 @@ btnEnviarAdmin.addEventListener("click", async function(event) {
     }
     // Guardar el nuevo usuario en el servidor
     try {
-        await (0, _postJs.postAdmins)(admin, correoAdmin);
+        await (0, _postJs.postAdmins)(admin, correoAdmin, passwordAdmin);
         alert("Administrador Registrado.");
     // window.location.href = "../LogIn/LogIn.html";
     } catch (error) {

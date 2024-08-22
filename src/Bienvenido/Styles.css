@@ -19,13 +19,13 @@ body {
     top: 2em;
 } */
 
-#circuloFwd {
+/* #circuloFwd {
     border-radius: 50%;
     position: absolute;
     top: 50%;
     left: 45%;
     width: 100px;
-}
+} */
 
 #logo{
     background-color: transparent; /* Asegúrate de que el fondo sea transparente */
