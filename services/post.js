@@ -1,5 +1,5 @@
-import { getUsers } from "./get.js";
-import { getAdmins } from "./get.js";
+// import { getUsers } from "./get.js";
+// import { getAdmins } from "./get.js";
 
 async function postUser(nombre, correo, password) {
     try {
@@ -60,4 +60,39 @@ async function postAdmins(nombre, correo, password) {
     }
 }
 
-export {postUser, postAdmins}
+
+
+async function postPermisos(usuario, sede , fechaSalida , fechaRegreso , codigoComputadora , condicionesAceptadas) {
+    try {
+        let Permisos = {
+            usuario,
+            sede,
+            fechaSalida,
+            fechaRegreso,
+            codigoComputadora,
+            condicionesAceptadas
+        };
+
+
+        let response = await fetch('http://localhost:3001/permisos', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(Permisos)
+        });
+
+        if (!response.ok) {
+            throw new Error('No se pudo guardar el usuario');
+        }
+
+        let dataPermisos = await response.json();
+        console.log('permiso guardado con éxito:', Permisos);
+        return dataPermisos;
+
+    } catch (error) {
+        console.error('No se pudo guardar los permisos', error);
+    }
+}
+
+export {postUser, postAdmins , postPermisos}

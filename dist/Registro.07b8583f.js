@@ -727,6 +727,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "postUser", ()=>postUser);
 parcelHelpers.export(exports, "postAdmins", ()=>postAdmins);
+parcelHelpers.export(exports, "postPermisos", ()=>postPermisos);
 var _getJs = require("./get.js");
 async function postUser(nombre, correo, password) {
     try {
@@ -769,6 +770,31 @@ async function postAdmins(nombre, correo, password) {
         return dataAdmin;
     } catch (error) {
         console.error("No se pudo guardar el usuario", error);
+    }
+}
+async function postPermisos(usuario, sede, fechaSalida, fechaRegreso, codigoComputadora, condicionesAceptadas) {
+    try {
+        let Permisos = {
+            usuario,
+            sede,
+            fechaSalida,
+            fechaRegreso,
+            codigoComputadora,
+            condicionesAceptadas
+        };
+        let response = await fetch("http://localhost:3001/admins", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(Permisos)
+        });
+        if (!response.ok) throw new Error("No se pudo guardar el usuario");
+        let dataAdmin = await response.json();
+        console.log("permiso guardado con \xe9xito:", Permisos);
+        return dataAdmin;
+    } catch (error) {
+        console.error("No se pudo guardar los permisos", error);
     }
 }
 
