@@ -1,0 +1,8 @@
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background: url("../Registro/img/Fondo de Pantalla.png");
+    background-size: cover;
+    background-position: center;
+  }

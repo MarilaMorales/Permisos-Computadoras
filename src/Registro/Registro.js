@@ -37,6 +37,7 @@ btnEnviar.addEventListener("click", async function(event) {
     // Guardar el nuevo usuario en el servidor
     try {
         await postUser(usuario, correo , password);
+        await postUser(usuario, correo, password);
 
         alert("Usuario registrado.");
         // window.location.href = "../LogIn/LogIn.html";
