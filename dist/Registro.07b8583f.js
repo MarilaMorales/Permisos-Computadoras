@@ -723,12 +723,13 @@ exports.export = function(dest, destName, get) {
 };
 
 },{}],"gD2oT":[function(require,module,exports) {
+// import { getUsers } from "./get.js";
+// import { getAdmins } from "./get.js";
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "postUser", ()=>postUser);
 parcelHelpers.export(exports, "postAdmins", ()=>postAdmins);
 parcelHelpers.export(exports, "postPermisos", ()=>postPermisos);
-var _getJs = require("./get.js");
 async function postUser(nombre, correo, password) {
     try {
         let nuevoUsuario = {
@@ -782,7 +783,7 @@ async function postPermisos(usuario, sede, fechaSalida, fechaRegreso, codigoComp
             codigoComputadora,
             condicionesAceptadas
         };
-        let response = await fetch("http://localhost:3001/admins", {
+        let response = await fetch("http://localhost:3001/permisos", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -790,14 +791,14 @@ async function postPermisos(usuario, sede, fechaSalida, fechaRegreso, codigoComp
             body: JSON.stringify(Permisos)
         });
         if (!response.ok) throw new Error("No se pudo guardar el usuario");
-        let dataAdmin = await response.json();
+        let dataPermisos = await response.json();
         console.log("permiso guardado con \xe9xito:", Permisos);
-        return dataAdmin;
+        return dataPermisos;
     } catch (error) {
         console.error("No se pudo guardar los permisos", error);
     }
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./get.js":"ilQdp"}]},["aEMzq","a9TP5"], "a9TP5", "parcelRequire2e59")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["aEMzq","a9TP5"], "a9TP5", "parcelRequire2e59")
 
 //# sourceMappingURL=Registro.07b8583f.js.map
