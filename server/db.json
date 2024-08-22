@@ -4,6 +4,23 @@
       "id": "86e8",
       "nombre": "hielo li",
       "correo": "hielo@gmail.com"
+    },
+    {
+      "id": "620c",
+      "nombre": "Nixon blanco",
+      "correo": "nixon@gmail.com"
+    },
+    {
+      "id": "fe40",
+      "nombre": "Nixon Davila",
+      "correo": "nixonDa@gmail.com",
+      "password": "2810"
+    },
+    {
+      "id": "4a8e",
+      "nombre": "Nana",
+      "correo": "nana@gmail.com",
+      "password": "1212"
     }
   ],
   "admins": [
@@ -11,6 +28,12 @@
       "id": "e20f",
       "nombre": "Naruto",
       "correo": "naruto@gmail.com"
+    },
+    {
+      "id": "dd31",
+      "nombre": "patricio",
+      "correo": "estrella@gmail.com",
+      "password": "3322"
     }
   ]
 }
