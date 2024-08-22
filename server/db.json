@@ -4,6 +4,12 @@
       "id": "86e8",
       "nombre": "hielo li",
       "correo": "hielo@gmail.com"
+    },
+    {
+      "id": "99c6",
+      "nombre": "juan",
+      "correo": "juan@gmail.com",
+      "password": "5555"
     }
   ],
   "admins": [
@@ -22,6 +28,19 @@
       "nombre": "Maria",
       "correo": "maria@gmail.com",
       "password": "8787"
+    }
+  ],
+  "Permisos": [
+    {
+      "id": "86e8",
+      "nombre": "hielo li",
+      "correo": "hielo@gmail.com"
+    },
+    {
+      "id": "99c6",
+      "nombre": "juan",
+      "correo": "juan@gmail.com",
+      "password": "5555"
     }
   ]
 }

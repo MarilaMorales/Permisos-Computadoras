@@ -10,7 +10,7 @@ body {
   display: flex;
   justify-content: center;
   min-height: 100vh;
-  background: url("../IMG/fondoRegistro.jpeg");
+  background: url("../Registro/img/Fondo de Pantalla.png");
   background-size: cover;
   background-position: center;
 }
