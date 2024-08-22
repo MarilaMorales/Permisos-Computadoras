@@ -6,7 +6,7 @@ window.onload = function() {
 
 async function mostrarSolicitudes() {
     try {
-        let solicitudes = await getSolicitudesPendientes();
+        let solicitudes = await getPermisos();
         let tabla = document.getElementById("tablaSolicitudes");
         tabla.innerHTML = ''; // Limpiar tabla
 

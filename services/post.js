@@ -1,6 +1,3 @@
-import { getUsers } from "./get.js";
-import { getAdmins } from "./get.js";
-
 async function postUser(nombre, correo, password) {
     try {
         let nuevoUsuario = {
