@@ -9,10 +9,13 @@
 body {
   display: flex;
   justify-content: center;
+  align-items: center;
   min-height: 100vh;
-  background: url("../Registro/img/Fondo de Pantalla.png");
+  background: url(../Registro/img/Comunidad\ icon-01.png) no-repeat;
   background-size: cover;
   background-position: center;
+  background-color: aqua;
+ 
 }
 
 .wrapper {
