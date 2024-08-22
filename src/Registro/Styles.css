@@ -176,7 +176,13 @@ body {
   text-decoration: underline; 
 }
 
-
+#btnRegistroAdmin {
+  position: absolute;
+  top: 1rem; 
+  right: 1rem; 
+  z-index: 1000; 
+  background-color: #ec008c;
+}
 
 
 @media (max-width: 576px) {

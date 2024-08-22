@@ -28,7 +28,7 @@ body {
 } */
 
 #logo{
-    background-color: transparent; /* Asegúrate de que el fondo sea transparente */
+    background-color: transparent; 
     opacity: 0.8; 
     position: absolute;
     left: 10px;
@@ -37,7 +37,7 @@ body {
 
 }
 
-/* Contenedor principal */
+
 .container {
     text-align: center;
     height: 140px;
@@ -45,7 +45,7 @@ body {
     padding: 40px;
     border-radius: 8px;
     
-    /* box-shadow: 0 0 10px rgba(248, 13, 13, 0.718); */
+   
     position: absolute;
     top: 8.5em;
     backdrop-filter: blur(4px);
@@ -55,20 +55,20 @@ body {
     0.3em 0.3em 1em rgba(230, 225, 221, 0.683);
 }
 
-/* Estilo para el título */
+
 h1 {
     margin-bottom: 20px;
     color:white;
     font-size: 40px;
 }
 
-/* Contenedor de los botones */
+
 .button-container {
     display: flex;
     justify-content: space-around;
 }
 
-/* Estilo para los botones */
+
 .btn {
     background-color: #007bff;
     color: white;
