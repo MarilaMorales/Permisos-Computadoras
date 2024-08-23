@@ -7,8 +7,9 @@
 }
 
 body {
-  background: url("../../fondoRegistro.748f3bb9.jpeg") center / cover;
+  background: #0ff url("../../Comunidad icon-01.eac94d76.png") center / cover no-repeat;
   justify-content: center;
+  align-items: center;
   min-height: 100vh;
   display: flex;
 }
@@ -35,16 +36,15 @@ body {
 
 .wrapper .input-box {
   background: none;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
   display: flex;
 }
 
 .input-box .input-field {
   background: none;
-  width: 48%;
+  width: 100%;
   margin: 13px 0;
-  position: relative;
 }
 
 .input-box .input-field input {
@@ -74,7 +74,7 @@ body {
   position: absolute;
   top: 50%;
   left: 15px;
-  transform: translate(-50%);
+  transform: translateY(-50%);
 }
 
 .wrapper label {
@@ -107,7 +107,6 @@ body {
 }
 
 .registroAdminContenedor {
-  background-color: #f0f0f0;
   justify-content: center;
   align-items: center;
   height: 70%;
@@ -115,8 +114,8 @@ body {
 }
 
 #registroAdmin {
-  background-color: #fff;
-  border: 2px solid #00f;
+  background-color: #b80b0b;
+  border: 2px solid #ec008c;
   border-radius: 8px;
   width: 300px;
   padding: 20px;
@@ -163,6 +162,14 @@ body {
 
 .pasarLogIn a:hover {
   text-decoration: underline;
+}
+
+#btnRegistroAdmin {
+  z-index: 1000;
+  background-color: #ec008c;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
 }
 
 @media (width <= 576px) {

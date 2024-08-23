@@ -5,7 +5,7 @@ export async function putSolicitud(id, nuevoEstado) {
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify({ estado: nuevoEstado })
+            body: JSON.stringify({ estado: nuevoEstado }) // Actualiza el estado en el servidor
         });
 
         if (!response.ok) {
@@ -18,6 +18,3 @@ export async function putSolicitud(id, nuevoEstado) {
         throw error;
     }
 }
-
-
-export {putSolicitud}

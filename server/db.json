@@ -21,6 +21,12 @@
       "nombre": "Nana",
       "correo": "nana@gmail.com",
       "password": "1212"
+    },
+    {
+      "id": "02cf",
+      "nombre": "isla rojas",
+      "correo": "rojas2@gmail.com",
+      "password": "1234"
     }
   ],
   "admins": [
@@ -34,10 +40,15 @@
       "nombre": "patricio",
       "correo": "estrella@gmail.com",
       "password": "3322"
+    },
+    {
+      "id": "a104",
+      "nombre": "Susana",
+      "correo": "susana@gmail.com",
+      "password": "2121"
     }
   ],
   "permisos": [
-    {},
     {
       "id": "5c5c",
       "usuario": "Nixon Blanco",

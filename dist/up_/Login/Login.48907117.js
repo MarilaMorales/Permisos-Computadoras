@@ -623,6 +623,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "GetAdmins", ()=>GetAdmins);
 parcelHelpers.export(exports, "getUsers", ()=>getUsers);
+parcelHelpers.export(exports, "getPermisos", ()=>getPermisos);
 async function getUsers() {
     try {
         const response = await fetch("http://localhost:3001/users", {
@@ -648,6 +649,22 @@ async function GetAdmins() {
         return dataAdmin;
     } catch (error) {
         console.error("No sirve la cochinada de este fetch", error);
+    }
+}
+async function getPermisos() {
+    try {
+        let response = await fetch("http://localhost:3001/permisos", {
+            method: "GET",
+            headers: {
+                "Content-Type": "application/json"
+            }
+        });
+        if (!response.ok) throw new Error("Error al obtener solicitudes");
+        let permisos = await response.json();
+        return permisos;
+    } catch (error) {
+        console.error("Error al obtener solicitudes:", error);
+        throw error;
     }
 }
 
