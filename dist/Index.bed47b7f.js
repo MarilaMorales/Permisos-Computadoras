@@ -583,8 +583,139 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     });
 }
 
+<<<<<<< HEAD:dist/Index.bed47b7f.js
 },{}],"4Mmql":[function(require,module,exports) {
 
 },{}]},["h8WuR","4Mmql"], "4Mmql", "parcelRequire2e59")
+=======
+},{}],"a9TP5":[function(require,module,exports) {
+var _getJs = require("../../services/get.js");
+var _postJs = require("../../services/post.js");
+let btnEnviar = document.getElementById("btnRegistro");
+let btnEnviarAdmin = document.getElementById("btnEnviarAdmin");
+btnEnviar.addEventListener("click", async function(event) {
+    event.preventDefault();
+    // Obtener los valores ingresados por el usuario
+    let usuario = document.getElementById("userName").value;
+    let correo = document.getElementById("email").value;
+    let password = document.getElementById("password").value;
+    if (usuario === "" || correo === "" || password === "") {
+        alert("Por favor, llena todos los campos");
+        return;
+    }
+    // Obtener usuarios desde el servidor
+    let users = await (0, _getJs.getUsers)();
+    console.log(users);
+    // Verificar si el usuario ya está registrado
+    let userExists = users.some((user)=>user.correo === correo);
+    if (userExists) {
+        alert("El usuario ya est\xe1 registrado");
+        return;
+    }
+    // Guardar el nuevo usuario en el servidor
+    try {
+        await (0, _postJs.postUser)(usuario, correo, password);
+        await (0, _postJs.postUser)(usuario, correo, password);
+        alert("Usuario registrado.");
+    // window.location.href = "../LogIn/LogIn.html";
+    } catch (error) {
+        console.error("Error al registrar el usuario", error);
+    }
+});
+// Evento para verificar la contraseña del admin
+btnPassword.addEventListener("click", function() {
+    let passwordAdmin = "fwd2024";
+    let errorMsg = document.getElementById("mensajeError");
+    if (adminPassword.value === passwordAdmin) {
+        errorMsg.style.display = "none";
+        // Ocultar el primer modal
+        let modal1 = new bootstrap.Modal(document.getElementById("exampleModalToggle"));
+        modal1.hide();
+        // Mostrar el segundo modal
+        let modal2 = new bootstrap.Modal(document.getElementById("exampleModalToggle2"));
+        modal2.show();
+    } else errorMsg.style.display = "block";
+});
+btnEnviarAdmin.addEventListener("click", async function(event) {
+    event.preventDefault();
+    // Obtener los valores ingresados por el ADministrador
+    let admin = document.getElementById("usuarioAdmin").value;
+    let correoAdmin = document.getElementById("correoAdmin").value;
+    let passwordAdmin = document.getElementById("contrasenaAdmin").value;
+    if (admin === "" || correoAdmin === "" || passwordAdmin === "") {
+        alert("Por favor, llena todos los campos");
+        return;
+    }
+    // Obtener usuarios desde el servidor
+    let admins2 = await (0, _getJs.GetAdmins)();
+    console.log(admins2);
+    // Verificar si el usuario ya está registrado
+    let adminExists = admins2.some((admin3)=>admin3.correo === correoAdmin);
+    if (adminExists) {
+        alert("El usuario ya est\xe1 registrado");
+        return;
+    }
+    // Guardar el nuevo usuario en el servidor
+    try {
+        await (0, _postJs.postAdmins)(admin, correoAdmin, passwordAdmin);
+        alert("Administrador Registrado.");
+    // window.location.href = "../LogIn/LogIn.html";
+    } catch (error) {
+        console.error("Error al registrar Administrador", error);
+    }
+});
+let loginBtn = document.getElementById("loginBtn");
+if (loginBtn) loginBtn.addEventListener("click", function name(params) {});
+
+},{"../../services/get.js":"ilQdp","../../services/post.js":"gD2oT"}],"ilQdp":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "GetAdmins", ()=>GetAdmins);
+parcelHelpers.export(exports, "getUsers", ()=>getUsers);
+parcelHelpers.export(exports, "getPermisos", ()=>getPermisos);
+async function getUsers() {
+    try {
+        const response = await fetch("http://localhost:3001/users", {
+            method: "GET",
+            headers: {
+                "Content-Type": "application/json"
+            }
+        });
+        if (!response.ok) throw new Error("Error fetching users");
+        const users = await response.json();
+        return users;
+    } catch (error) {
+        console.error("Error fetching users:", error);
+        throw error;
+    }
+}
+async function GetAdmins() {
+    try {
+        let response = await fetch("http://localhost:3001/admins");
+        if (!response.ok) throw new Error("No sirve");
+        let dataAdmin = await response.json();
+        console.log(dataAdmin);
+        return dataAdmin;
+    } catch (error) {
+        console.error("No sirve la cochinada de este fetch", error);
+    }
+}
+async function getPermisos() {
+    try {
+        let response = await fetch("http://localhost:3001/permisos", {
+            method: "GET",
+            headers: {
+                "Content-Type": "application/json"
+            }
+        });
+        if (!response.ok) throw new Error("Error al obtener solicitudes");
+        let permisos = await response.json();
+        return permisos;
+    } catch (error) {
+        console.error("Error al obtener solicitudes:", error);
+        throw error;
+    }
+}
+>>>>>>> e4ef093b723c1bb9a9c28b3a3b72f9a52e75ae20:dist/Registro.07b8583f.js
 
 //# sourceMappingURL=Index.bed47b7f.js.map

@@ -142,14 +142,14 @@
       this[globalName] = mainExports;
     }
   }
-})({"l0RTR":[function(require,module,exports) {
+})({"63Iqb":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
 var HMR_USE_SSE = false;
-module.bundle.HMR_BUNDLE_ID = "0c636090e7322e9a";
+module.bundle.HMR_BUNDLE_ID = "1fa922600e6b1bc2";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, HMR_USE_SSE, chrome, browser, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -583,8 +583,307 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     });
 }
 
-},{}],"cbt0x":[function(require,module,exports) {
+},{}],"ibqNp":[function(require,module,exports) {
+var _postJs = require("../../services/post.js");
+<<<<<<< HEAD:dist/up_/Registro/Registro.07b8583f.js
+let btnPassword = document.getElementById("btnPassword");
+let btnEnviar = document.getElementById("btnRegistro");
+let btnEnviarAdmin = document.getElementById("btnEnviarAdmin");
+btnEnviar.addEventListener("click", async function(event) {
+    event.preventDefault();
+    // Obtener los valores ingresados por el usuario
+    let usuario = document.getElementById("userName").value;
+    let correo = document.getElementById("email").value;
+    let password = document.getElementById("password").value;
+    if (usuario === "" || correo === "" || password === "") {
+        alert("Por favor, llena todos los campos");
+=======
+// Llamados al DOM para los inputs y el botón de enviar
+const usuarioInput = document.getElementById("usuario");
+const sedeSelect = document.getElementById("sede");
+const fechaSalidaInput = document.getElementById("fechaSalida");
+const fechaRegresoInput = document.getElementById("fechaRegreso");
+const codigoComputadoraInput = document.getElementById("codigoComputadora");
+const condicionesCheckbox = document.getElementById("condiciones");
+const enviarBtn = document.getElementById("btnEnviar");
+// Ejemplo de cómo podrías manejar el evento de envío del formulario
+enviarBtn.addEventListener("click", async function(event) {
+    event.preventDefault(); // Evita que el formulario se envíe automáticamente
+    // Acceder a los valores de los inputs
+    const usuario = usuarioInput.value;
+    const sede = sedeSelect.value;
+    const fechaSalida = fechaSalidaInput.value;
+    const fechaRegreso = fechaRegresoInput.value;
+    const codigoComputadora = codigoComputadoraInput.value;
+    const condicionesAceptadas = condicionesCheckbox.checked;
+    // Validación básica
+    if (!usuario || !sede || !fechaSalida || !fechaRegreso || !codigoComputadora || !condicionesAceptadas) {
+        alert("Por favor, completa todos los campos y acepta las condiciones.");
+>>>>>>> e4ef093b723c1bb9a9c28b3a3b72f9a52e75ae20:dist/Estudiantes.0e6b1bc2.js
+        return;
+    }
+    // Lógica adicional para procesar los datos del formulario
+    console.log("Formulario enviado con \xe9xito");
+    console.log({
+        usuario,
+        sede,
+        fechaSalida,
+        fechaRegreso,
+        codigoComputadora,
+        condicionesAceptadas
+    });
+    try {
+        await (0, _postJs.postPermisos)(usuario, sede, fechaSalida, fechaRegreso, codigoComputadora, condicionesAceptadas);
+        alert("PERMISO ENVIADO");
+    } catch (error) {
+<<<<<<< HEAD:dist/up_/Registro/Registro.07b8583f.js
+        console.error("Error al registrar el usuario", error);
+    }
+});
+// Evento para verificar la contraseña del admin
+btnPassword.addEventListener("click", function() {
+    let adminPassword = document.getElementById("adminPassword"); // Asegúrate de definir esto correctamente
+    let passwordAdmin = "fwd2024";
+    let errorMsg = document.getElementById("mensajeError");
+    if (adminPassword.value === passwordAdmin) {
+        errorMsg.style.display = "none";
+        // Ocultar el primer modal
+        let modal1 = bootstrap.Modal.getInstance(document.getElementById("exampleModalToggle"));
+        modal1.hide();
+        // Mostrar el segundo modal
+        let modal2 = new bootstrap.Modal(document.getElementById("exampleModalToggle2"));
+        modal2.show();
+    } else errorMsg.style.display = "block";
+});
+btnEnviarAdmin.addEventListener("click", async function(event) {
+    event.preventDefault();
+    // Obtener los valores ingresados por el Administrador
+    let admin = document.getElementById("usuarioAdmin").value;
+    let correoAdmin = document.getElementById("correoAdmin").value;
+    let passwordAdmin = document.getElementById("contrasenaAdmin").value;
+    if (admin === "" || correoAdmin === "" || passwordAdmin === "") {
+        alert("Por favor, llena todos los campos");
+        return;
+    }
+    // Obtener usuarios desde el servidor
+    let admins2 = await (0, _getJs.GetAdmins)();
+    console.log(admins2);
+    // Verificar si el usuario ya está registrado
+    let adminExists = admins2.some((admin3)=>admin3.correo === correoAdmin);
+    if (adminExists) {
+        alert("El usuario ya est\xe1 registrado");
+        return;
+    }
+    // Guardar el nuevo usuario en el servidor
+    try {
+        await (0, _postJs.postAdmins)(admin, correoAdmin, passwordAdmin);
+        alert("Administrador registrado.");
+    // window.location.href = "../LogIn/LogIn.html";
+    } catch (error) {
+        console.error("Error al registrar Administrador", error);
+=======
+        console.error("Error al ENVIAR el permiso ", error);
+>>>>>>> e4ef093b723c1bb9a9c28b3a3b72f9a52e75ae20:dist/Estudiantes.0e6b1bc2.js
+    }
+});
+console.log(enviarBtn);
 
-},{}]},["l0RTR","cbt0x"], "cbt0x", "parcelRequire2e59")
+<<<<<<< HEAD:dist/up_/Registro/Registro.07b8583f.js
+},{"../../services/get.js":"ilQdp","../../services/post.js":"gD2oT"}],"ilQdp":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "GetAdmins", ()=>GetAdmins);
+parcelHelpers.export(exports, "getUsers", ()=>getUsers);
+parcelHelpers.export(exports, "getPermisos", ()=>getPermisos);
+async function getUsers() {
+    try {
+        const response = await fetch("http://localhost:3001/users", {
+            method: "GET",
+            headers: {
+                "Content-Type": "application/json"
+            }
+        });
+        if (!response.ok) throw new Error("Error fetching users");
+        const users = await response.json();
+        return users;
+    } catch (error) {
+        console.error("Error fetching users:", error);
+        throw error;
+    }
+}
+async function GetAdmins() {
+    try {
+        let response = await fetch("http://localhost:3001/admins");
+        if (!response.ok) throw new Error("No sirve");
+        let dataAdmin = await response.json();
+        console.log(dataAdmin);
+        return dataAdmin;
+    } catch (error) {
+        console.error("No sirve la cochinada de este fetch", error);
+    }
+}
+async function getPermisos() {
+    try {
+        let response = await fetch("http://localhost:3001/permisos", {
+            method: "GET",
+            headers: {
+                "Content-Type": "application/json"
+            }
+        });
+        if (!response.ok) throw new Error("Error al obtener solicitudes");
+        let permisos = await response.json();
+        return permisos;
+    } catch (error) {
+        console.error("Error al obtener solicitudes:", error);
+        throw error;
+    }
+}
 
-//# sourceMappingURL=Bienvenido.e7322e9a.js.map
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, "__esModule", {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === "default" || key === "__esModule" || Object.prototype.hasOwnProperty.call(dest, key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
+
+},{}],"gD2oT":[function(require,module,exports) {
+=======
+},{"../../services/post.js":"gD2oT"}],"gD2oT":[function(require,module,exports) {
+// import { getUsers } from "./get.js";
+// import { getAdmins } from "./get.js";
+>>>>>>> e4ef093b723c1bb9a9c28b3a3b72f9a52e75ae20:dist/Estudiantes.0e6b1bc2.js
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "postUser", ()=>postUser);
+parcelHelpers.export(exports, "postAdmins", ()=>postAdmins);
+parcelHelpers.export(exports, "postPermisos", ()=>postPermisos);
+var _getJs = require("./get.js");
+async function postUser(nombre, correo, password) {
+    try {
+        let nuevoUsuario = {
+            nombre,
+            correo,
+            password
+        };
+        let response = await fetch("http://localhost:3001/users", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(nuevoUsuario)
+        });
+        if (!response.ok) throw new Error("No se pudo guardar el usuario");
+        let data = await response.json();
+        console.log("Usuario guardado con \xe9xito:", data);
+    } catch (error) {
+        console.error("No se pudo guardar el usuario:", error);
+    }
+}
+async function postAdmins(nombre, correo, password) {
+    try {
+        let nuevoAdmin = {
+            nombre,
+            correo,
+            password
+        };
+        let response = await fetch("http://localhost:3001/admins", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(nuevoAdmin)
+        });
+        if (!response.ok) throw new Error("No se pudo guardar el usuario");
+        let dataAdmin = await response.json();
+        console.log("Usuario guardado con \xe9xito:", dataAdmin);
+        return dataAdmin;
+    } catch (error) {
+        console.error("No se pudo guardar el usuario", error);
+    }
+}
+async function postPermisos(usuario, sede, fechaSalida, fechaRegreso, codigoComputadora, condicionesAceptadas) {
+    try {
+        let Permisos = {
+            usuario,
+            sede,
+            fechaSalida,
+            fechaRegreso,
+            codigoComputadora,
+            condicionesAceptadas
+        };
+        let response = await fetch("http://localhost:3001/permisos", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(Permisos)
+        });
+        if (!response.ok) throw new Error("No se pudo guardar el usuario");
+        let dataPermisos = await response.json();
+        console.log("permiso guardado con \xe9xito:", Permisos);
+        return dataPermisos;
+    } catch (error) {
+        console.error("No se pudo guardar los permisos", error);
+    }
+}
+
+<<<<<<< HEAD:dist/up_/Registro/Registro.07b8583f.js
+},{"./get.js":"ilQdp","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["aEMzq","a9TP5"], "a9TP5", "parcelRequire2e59")
+=======
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, "__esModule", {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === "default" || key === "__esModule" || Object.prototype.hasOwnProperty.call(dest, key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
+>>>>>>> e4ef093b723c1bb9a9c28b3a3b72f9a52e75ae20:dist/Estudiantes.0e6b1bc2.js
+
+},{}]},["63Iqb","ibqNp"], "ibqNp", "parcelRequire2e59")
+
+//# sourceMappingURL=Estudiantes.0e6b1bc2.js.map

@@ -100,4 +100,11 @@ btnEnviarAdmin.addEventListener("click", async function(event) {
 
 
 
+let loginBtn = document.getElementById("loginBtn")
 
+
+if (loginBtn) {
+    loginBtn.addEventListener("click" , function name(params) {
+        
+    })
+}

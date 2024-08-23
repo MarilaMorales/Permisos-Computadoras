@@ -7,7 +7,11 @@
 }
 
 body {
+<<<<<<< HEAD:dist/up_/Registro/Registro.56dad6fb.css
   background: #0ff url("../../Comunidad icon-01.eac94d76.png") center / cover no-repeat;
+=======
+  background: #0ff url("Comunidad icon-01.eac94d76.png") center / cover no-repeat;
+>>>>>>> e4ef093b723c1bb9a9c28b3a3b72f9a52e75ae20:dist/Registro.56dad6fb.css
   justify-content: center;
   align-items: center;
   min-height: 100vh;

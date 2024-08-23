@@ -14,11 +14,13 @@ loginButton.addEventListener("click", async function () {
 
         // Buscar en la lista de usuarios normales
         const user = userAppi.find(u => u.correo === emailValue);
+        console.log(user);
         
         if (user) {
             if (user.password === passwordValue) {
                 alert("¡Éxito! Usuario normal entrando.");
-                window.location.href="http://127.0.0.1:5500/Permisos-Computadoras/src/Estudiantes/Estudiantes.html"
+                window.location.href= "http://localhost:1234/Estudiantes.html";
+                
             } else {
                 alert("Contraseña incorrecta.");
             }
