@@ -69,6 +69,15 @@
       "fechaRegreso": "2024-08-23",
       "codigoComputadora": "JD657S2",
       "condicionesAceptadas": true
+    },
+    {
+      "id": "6436",
+      "usuario": "sheyris davila",
+      "sede": "Sede Santa Ana",
+      "fechaSalida": "2024-08-23",
+      "fechaRegreso": "2024-08-25",
+      "codigoComputadora": "JD647S2",
+      "condicionesAceptadas": true
     }
   ]
 }

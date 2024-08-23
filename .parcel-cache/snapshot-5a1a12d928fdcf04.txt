@@ -1,4 +1,4 @@
-5953
+5954
 121C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\caniuse-lite\data\regions\NU.js133686644991738218 0
 140C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\caniuse-lite\data\features\css-deviceadaptation.js133686644975218923 0
 111C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\ordered-binary\assets133686644960484444 1
@@ -8,7 +8,7 @@
 115C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\csso\cjs\clean\Atrule.cjs133686644961654689 0
 115C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\cosmiconfig\dist\index.js133686644961794197 0
 112C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\semver\functions\eq.js133686644959007358 0
-89C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\package.json133689057062863718 0
+89C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\package.json133689167225770082 0
 141C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_copy.c133686644967100380 0
 118C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\domutils\lib\legacy.d.ts.map133686644949524073 0
 108C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\.package-lock.json133686645261600552 0
@@ -41,23 +41,23 @@
 133C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\csso\node_modules\css-tree\lib\syntax\scope133686645036834430 1
 127C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\css-tree\cjs\syntax\node\Brackets.cjs133686644961724389 0
 170C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages\node-gyp-build.js133686645011862085 0
-85C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\services133688387747114174 1
+85C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\services133689144324682143 1
 126C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\css-tree\cjs\syntax\atrule\media.cjs133686644971458973 0
 120C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\cosmiconfig\dist\readFile.d.ts133686644968741234 0
 110C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\weak-lru-cache\tests133686644950690818 1
-102C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Bienvenido\styles.css133689052760171821 0
+102C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Bienvenido\styles.css133689058780417198 0
 120C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\css-what\lib\es\index.d.ts.map133686644962502303 0
 116C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\source-map-js\package.json133686644961184515 0
 149C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_stat.1133686644964935794 0
 99C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\env-paths133686644955657541 1
-81C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist133689057065429390 1
+81C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist133689167230693167 1
 117C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\lines-and-columns\README.md133686644950780593 0
 118C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\domutils\lib\manipulation.js133686644945494697 0
-100C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Bienvenido\index.js133689055338908387 0
+100C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Bienvenido\index.js133689144324722039 0
 117C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\reporter-dev-server133686644983687782 1
 108C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\dom-serializer\lib133686644951049856 1
 123C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\svgo\plugins\removeHiddenElems.js133686644971678393 0
-80C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src133689017267228317 1
+80C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src133689140637619346 1
 147C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mtest3.c133686644971119888 0
 115C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\dotenv-expand\lib\main.js133686644945464788 0
 102C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\svgo\LICENSE133686644947309865 0
@@ -66,7 +66,7 @@
 145C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\htmlnano\docs\versioned_docs\version-1.1.1\020-usage.md133686644969090207 0
 122C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@swc\helpers\esm\_ts_metadata.js133686644977946823 0
 160C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\clean\TypeSelector.js133686644965564121 0
-102C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Registro\img\logo.png133688387747269592 0
+102C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Registro\img\logo.png133689144324951460 0
 176C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\core\test\fixtures\plugins\node_modules\parcel-transformer-no-engines\index.js133686645019721406 0
 117C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Bienvenido\img\Comunidad icon-01.png133688373794726629 0
 103C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\utils133686644975558017 1
@@ -82,24 +82,24 @@
 117C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\source-map-js\lib\base64.js133686644949494013 0
 139C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@swc\helpers\_\_wrap_async_generator\package.json133686644986058254 0
 121C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\domutils\lib\traversal.d.ts.map133686644952436159 0
-83C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\server133688952331372858 1
+83C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\server133689153034617771 1
 124C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\csso\node_modules\mdn-data\LICENSE133686645011687380 0
 133C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\csso\node_modules\css-tree\cjs\syntax\scope133686645025161324 1
 135C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\csso\node_modules\css-tree\cjs\utils\List.cjs133686645021720512 0
-95C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Administracion133688387747137478 1
+95C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Administracion133689144324702091 1
 151C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\csso\node_modules\css-tree\cjs\syntax\node\index-generate.cjs133686645020210090 0
 103C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\tslib\modules133686644958173846 1
-115C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Registro\img\Fondo de Pantalla.png133688387747258249 0
+115C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Registro\img\Fondo de Pantalla.png133689144324901577 0
 113C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\domutils\lib\index.d.ts133686644957765250 0
 129C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\lmdb\node_modules\node-addon-api\napi.h133686645012360729 0
 120C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\svgo\plugins\collapseGroups.js133686644968681284 0
 113C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\semver\functions\lte.js133686644963330121 0
 118C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\timsort\build\timsort.min.js133686644945584465 0
-91C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Bienvenido133689051862152699 1
+91C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Bienvenido133689144324722039 1
 129C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\csso\node_modules\css-tree\dist\data.js133686645034372861 0
 123C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\caniuse-lite\dist\lib\statuses.js133686644993493527 0
 97C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\is-json133686644957924800 1
-115C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Administracion\Administracion.html133688387747127108 0
+115C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Administracion\Administracion.html133689144324692119 0
 135C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@swc\helpers\_\_class_apply_descriptor_update133686644980286850 1
 161C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\CDC.js133686644948626345 0
 147C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mtest4.c133686644971269503 0
@@ -112,15 +112,15 @@
 144C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\react-refresh\cjs\react-refresh-runtime.development.js133686644950072463 0
 115C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\utils\src\glob.js133686644971857900 0
 113C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@trysound\sax\README.md133686644960976108 0
-95C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Login\Login.js133689050450240964 0
+95C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Login\Login.js133689147360303874 0
 139C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\caniuse-lite\data\features\css-descendant-gtgt.js133686644975149129 0
 123C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\core\src\public\Target.js133686645021640718 0
 136C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\core\test\fixtures\parcel\package.json133686645022628093 0
 142C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest_enc.c133686644970501525 0
 107C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\commander\LICENSE133686644954231372 0
-92C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Estudiantes133688373794876098 1
+92C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Estudiantes133689144324742056 1
 130C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\csso\lib\replace\property\font-weight.js133686644971319376 0
-86C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Login133688373794906186 1
+86C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Login133689147360303874 1
 135C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\css-select\node_modules\entities\package.json133686645014714446 0
 95C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@lmdb133686645259968966 1
 145C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Function.cjs133686645018943479 0
@@ -128,17 +128,17 @@
 125C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\caniuse-lite\data\regions\alt-ww.js133686644960494416 0
 108C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\mdn-data\README.md133686644965524214 0
 131C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\core\lib\requests\AssetRequest.js133686645016020943 0
-89C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Registro133688387747159025 1
+89C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Registro133689144324801836 1
 120C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\msgpackr\dist\index.min.js.map133686644967598971 0
 106C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\is-json\index.js133686644956216048 0
-102C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Bienvenido\index.html133689053687329470 0
+102C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Bienvenido\index.html133689144324712066 0
 123C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\css-tree\lib\syntax\node\Block.js133686644975498171 0
 129C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\caniuse-lite\data\features\atob-btoa.js133686644964786204 0
 119C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\lightningcss\node\ast.js.flow133686644958104445 0
 130C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\utility-types\dist\aliases-and-guards.js133686644947290004 0
 150C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\css-select\node_modules\entities\lib\esm\decode_codepoint.js133686645011872054 0
 131C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\css-tree\lib\syntax\node\ClassSelector.js133686644975797374 0
-93C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Registro\img133688387747269592 1
+93C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Registro\img133689144324951460 1
 125C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\utility-types\dist\utility-types.js133686644949623658 0
 142C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\react-refresh\cjs\react-refresh-babel.development.js133686644948506648 0
 97C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel133686645259958994 1
@@ -147,19 +147,19 @@
 111C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\mdn-data\api\index.js133686644949374332 0
 118C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\workers\src\index.js133686644971179749 0
 115C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\semver\functions\major.js133686644963639283 0
-103C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Registro\Registro.html133689056793192093 0
+103C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Registro\Registro.html133689159291513182 0
 120C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\workers\src\backend.js133686644969090207 0
 138C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\css-tree\lib\syntax\node\index-parse-selector.js133686644978774555 0
 98C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\has-flag133686644954550489 1
 135C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\caniuse-lite\data\features\async-functions.js133686644964437216 0
-101C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Registro\Registro.js133688994523519053 0
+101C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Registro\Registro.js133689144324791892 0
 109C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\commander\Readme.md133686644961465451 0
 143C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\caniuse-lite\data\features\intersectionobserver-v2.js133686644988985582 0
 141C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\optimizer-htmlnano\src\HTMLNanoOptimizer.js133686645000542083 0
 163C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\replace\AttributeSelector.js133686644948945491 0
 107C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\commander\esm.mjs133686644961774251 0
 133C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\package-manager\test\fixtures\empty133686644995697633 1
-100C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Registro\Styles.css133688387747149010 0
+100C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Registro\Styles.css133689166962486461 0
 108C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\svgo\lib\svgo.d.ts133686644965743626 0
 97C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\globals133686644957685617 1
 122C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\nth-check\lib\esm\index.d.ts.map133686644960844057 0
@@ -173,7 +173,7 @@
 121C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\caniuse-lite\data\regions\DO.js133686644983957039 0
 107C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\lmdb\src\misc.cpp133686644972526115 0
 164C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\common\SyntaxError.js133686644973383830 0
-115C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Registro\img\Comunidad icon-01.png133688387747208817 0
+115C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Registro\img\Comunidad icon-01.png133689144324861676 0
 101C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\detect-libc133686644958653165 1
 165C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\package-manager\test\fixtures\has-foo\node_modules\foo\package.json133686644995752721 0
 117C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\svgo\plugins\removeXMLNS.js133686644972426482 0
@@ -185,7 +185,7 @@
 128C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\css-tree\lib\syntax\node\WhiteSpace.js133686644984036830 0
 123C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\htmlparser2\lib\WritableStream.js133686644958837807 0
 147C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Identifier.cjs133686645020040544 0
-112C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Registro\img\logo-Photoroom.png133688387747269592 0
+112C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Registro\img\logo-Photoroom.png133689144324941475 0
 132C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\transformer-babel\lib\constants.js133686644977403073 0
 126C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@swc\helpers\esm\_define_property.js133686644975218923 0
 113C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\workers\src\web133686644972695670 1
@@ -194,7 +194,7 @@
 153C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\sample-mdb.txt133686644977014375 0
 107C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\callsites\license133686644959446248 0
 129C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\htmlnano\lib\modules\removeComments.mjs133686644972316678 0
-97C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Login\Login.html133689049023223238 0
+97C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Login\Login.html133689144324761987 0
 169C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\restructure\prepare\specificity.js133686644965364641 0
 124C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\runtime-service-worker\lib133686644979718378 1
 121C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\source-map\package.json133686644974191659 0
@@ -230,10 +230,10 @@
 109C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\svgo\lib\types.d.ts133686644966835926 0
 115C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\semver\functions\parse.js133686644964975684 0
 135C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\caniuse-lite\data\features\css-transitions.js133686644981852661 0
-109C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Estudiantes\Estudiantes.html133689048710964112 0
+109C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Estudiantes\Estudiantes.html133689144324732010 0
 129C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\cosmiconfig\dist\canUseDynamicImport.js133686644956666309 0
 107C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Estudiantes\Estudiantes.js133688373794866091 0
-92C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\services\put.js133688387747114174 0
+92C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\services\put.js133689144324682143 0
 128C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\utility-types\dist\mapped-types.js.map133686644954520569 0
 110C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\semver\bin\semver.js133686644966247450 0
 127C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\type-fest\source\merge-exclusive.d.ts133686644963429821 0
@@ -248,7 +248,7 @@
 106C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\parcel\README.md133686644956136242 0
 127C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@swc\helpers\esm\_write_only_error.js133686644978315762 0
 134C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\csso\node_modules\css-tree\cjs\syntax\atrule133686645024453203 1
-103C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Estudiantes\Styles.css133689041493252793 0
+103C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Estudiantes\Styles.css133689144324742056 0
 142C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\caniuse-lite\data\features\css-background-offsets.js133686644974042059 0
 112C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\to-regex-range\LICENSE133686644948596424 0
 133C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\transformer-js\lib\JSTransformer.js133686644969863237 0
@@ -262,24 +262,24 @@
 150C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\csso\node_modules\css-tree\lib\syntax\node\index-generate.js133686645035508025 0
 122C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\update-browserslist-db\README.md133686644945524621 0
 125C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\svgo\plugins\removeEditorsNSData.js133686644971309374 0
-102C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\up_\Login\Login.html133689057064811014 0
+102C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\up_\Login\Login.html133689167230044919 0
 94C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@swc133686645259958994 1
 138C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@swc\helpers\esm\_is_native_reflect_construct.js133686644975986862 0
 98C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\posthtml133686644951269255 1
 121C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\semver\ranges\min-satisfying.js133686644964038203 0
 116C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\fs\src\MemoryFS.js133686645009991910 0
-113C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Administracion\Administracion.js133688387747127108 0
+113C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Administracion\Administracion.js133689144324702091 0
 141C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@swc\helpers\src\_class_private_field_loose_key.mjs133686644986951042 0
 152C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\cleanupIDs.js133686645014834119 0
 146C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\csso\node_modules\css-tree\lib\syntax\atrule\supports.js133686645036575097 0
 121C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\caniuse-lite\data\regions\UZ.js133686644994530752 0
-106C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Administracion\Styles.css133688387747137478 0
+106C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\src\Administracion\Styles.css133689144324702091 0
 113C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\packager-js\lib133686644994221580 1
 150C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\htmlnano\docs\versioned_docs\version-1.1.1\060-contribute.md133686644970621467 0
 117C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\htmlparser2\lib\Parser.d.ts133686644963240324 0
 114C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\node-addon-api\README.md133686644964018262 0
 132C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\caniuse-lite\data\features\offline-apps.js133686644991818012 0
-92C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\services\get.js133688387747104193 0
+92C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\services\get.js133689144324672187 0
 107C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\mdn-data\index.js133686644950850393 0
 127C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\runtime-js\lib\helpers\worker133686644990371892 1
 118C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\css-tree\dist\csstree.esm.js133686644977283389 0
@@ -287,7 +287,7 @@
 110C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\lmdb\src\lmdb-js.cpp133686644972416440 0
 121C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\caniuse-lite\data\regions\IM.js133686644987579354 0
 119C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\posthtml-render\dist\index.js133686644948516629 0
-91C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\server\db.json133688952330283038 0
+91C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\server\db.json133689153034597444 0
 133C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\transformer-js\src\JSTransformer.js133686644970102611 0
 110C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\json5\lib\index.d.ts133686644953054493 0
 167C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\addAttributesToSVGElement.js133686645014465148 0
@@ -1067,7 +1067,7 @@
 121C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@swc\helpers\src\_using_ctx.mjs133686644989205014 0
 111C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\types\LICENSE133686644967589005 0
 128C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\css-select\node_modules\dom-serializer133686645014315541 1
-103C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Registro.56dad6fb.css133689057064811014 0
+103C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Registro.56dad6fb.css133689167230164587 0
 124C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\optimizer-css\package.json133686645004855645 0
 114C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\semver\functions\sort.js133686644966716196 0
 150C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\csso\node_modules\css-tree\lib\definition-syntax\generate.js133686645035168867 0
@@ -1551,7 +1551,7 @@
 127C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\posthtml\node_modules\posthtml-parser133686645011717315 1
 121C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\css-tree\lib\parser\sequence.js133686644982929886 0
 138C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\caniuse-lite\data\features\css-initial-letter.js133686644977333264 0
-98C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\fwd.8fb28dd6.png133689057065269803 0
+98C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\fwd.8fb28dd6.png133689167230254344 0
 162C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.darwin-x64.node133686644975787404 0
 132C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\posthtml\node_modules\posthtml-parser\dist133686645011862085 1
 143C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\csso\node_modules\css-tree\lib\syntax\atrule\index.js133686645035727364 0
@@ -1850,7 +1850,7 @@
 135C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\css-select\node_modules\domutils\lib\index.js133686645014175884 0
 106C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\mdn-data\LICENSE133686644948795879 0
 127C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\node-addon-api\tools\eslint-format.js133686644963000967 0
-106C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Estudiantes.60bb68df.css133689047507693884 0
+106C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Estudiantes.60bb68df.css133689144324442802 0
 120C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\node-addon-api\tools\README.md133686644964177817 0
 127C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\caniuse-lite\data\features\netinfo.js133686644991668413 0
 110C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\msgpackr-extract\bin133686644950750688 1
@@ -3350,7 +3350,7 @@
 122C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\css-tree\cjs\syntax\node\CDC.cjs133686644961913879 0
 124C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\graph\lib\AdjacencyList.js133686645005454049 0
 122C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\css-tree\cjs\syntax\node\CDO.cjs133686644962183170 0
-104C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\index.d6c1013a.css.map133689055669327529 0
+104C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\index.d6c1013a.css.map133689148421186962 0
 135C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\optimizer-svgo\node_modules\csso\dist133686644961164607 1
 132C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\css-tree\cjs\syntax\node\ClassSelector.cjs133686644962841401 0
 121C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\codeframe\test\fixtures133686645012590117 1
@@ -3578,7 +3578,7 @@
 160C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\collapseGroups.js133686645015442496 0
 120C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@swc\helpers\src\_inherits.mjs133686644987599298 0
 142C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\css-select\node_modules\domutils\lib\querying.js.map133686645017207772 0
-100C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\index.d6c1013a.css133689055669187896 0
+100C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\index.d6c1013a.css133689148421147070 0
 145C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\css-select\node_modules\domutils\lib\stringify.d.ts.map133686645017437178 0
 121C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\caniuse-lite\data\regions\GL.js133686644986586853 0
 139C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\css-select\node_modules\domutils\lib\stringify.js133686645015033592 0
@@ -3820,7 +3820,7 @@
 113C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\color-convert\README.md133686644960624092 0
 123C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\workers\src\childState.js133686644969843305 0
 112C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\color-convert\route.js133686644960996057 0
-110C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Estudiantes.60bb68df.css.map133689047507833478 0
+110C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Estudiantes.60bb68df.css.map133689144324452762 0
 119C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\watcher\index.js.flow133686644960584191 0
 121C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\caniuse-lite\data\regions\TM.js133686644994231549 0
 164C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\convertEllipseToCircle.js133686645015432526 0
@@ -3891,7 +3891,7 @@
 157C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@swc\helpers\_\_class_static_private_field_destructure\package.json133686644982840015 0
 121C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\caniuse-lite\data\regions\BT.js133686644970541427 0
 121C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\caniuse-lite\data\regions\BY.js133686644970750870 0
-106C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Registro.07b8583f.js.map133689057065349699 0
+106C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Registro.07b8583f.js.map133689167230423901 0
 121C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\caniuse-lite\data\regions\BZ.js133686644970850594 0
 131C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\caniuse-lite\data\features\svg-filters.js133686644993603239 0
 137C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@swc\helpers\_\_object_without_properties_loose133686644984971175 1
@@ -3966,7 +3966,7 @@
 121C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\caniuse-lite\data\regions\KN.js133686644990341957 0
 151C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\CHANGELOG.md133686644974450973 0
 121C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\caniuse-lite\data\regions\KW.js133686644990471617 0
-95C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Registro.html133689057065259825 0
+95C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Registro.html133689167230693167 0
 121C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\caniuse-lite\data\regions\LK.js133686644990840631 0
 140C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\caniuse-lite\data\features\css-at-counter-style.js133686644973882494 0
 121C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\caniuse-lite\data\regions\LR.js133686644990890511 0
@@ -4042,7 +4042,7 @@
 121C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\caniuse-lite\data\regions\US.js133686644994480893 0
 139C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\caniuse-lite\data\features\css-scroll-behavior.js133686644979688456 0
 121C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\caniuse-lite\data\regions\VC.js133686644994580636 0
-92C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Login.html133689050406123157 0
+92C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Login.html133689144324492669 0
 121C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\caniuse-lite\data\regions\VI.js133686644994650450 0
 121C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\caniuse-lite\data\regions\VN.js133686644994740287 0
 121C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\caniuse-lite\data\regions\VU.js133686644994770121 0
@@ -4520,7 +4520,7 @@
 123C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@swc\helpers\_\_non_iterable_rest133686644984731834 1
 141C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\core\test\fixtures\config-extends-not-found133686645014485051 1
 119C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@swc\helpers\_\_object_spread133686644984931272 1
-85C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\up_133689055873993727 1
+85C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\up_133689140637589420 1
 111C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\optimizer-swc133686645001210279 1
 125C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@swc\helpers\_\_object_spread_props133686644984881514 1
 133C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@swc\helpers\_\_possible_constructor_return133686644985090845 1
@@ -4814,7 +4814,7 @@
 117C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\workers\src\process133686644971818012 1
 125C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\workers\src\web\WebChild.js133686644972536090 0
 133C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\workers\src\process\ProcessChild.js133686644971718290 0
-114C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\up_\Login\Login.bb60b614.css.map133689057064890824 0
+114C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\up_\Login\Login.bb60b614.css.map133689167230264309 0
 122C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\transformer-posthtml\src133686644968491790 1
 116C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\workers\lib\bus.js133686644969209867 0
 118C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\@parcel\workers\lib\child.js133686644969548963 0
@@ -5933,22 +5933,23 @@
 105C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\.bin\semver.ps1133686645253620092 0
 103C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\.bin\svgo.cmd133686645253520366 0
 121C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\node_modules\.bin\update-browserslist-db.cmd133686645253819554 0
-106C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Captura fwd.9bcc0ea0.jpg133689055669267683 0
-105C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Estudiantes.0e6b1bc2.js133689047507973122 0
-109C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Estudiantes.0e6b1bc2.js.map133689047508042923 0
-98C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Estudiantes.html133689047507973122 0
-99C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\index.e5113480.js133689055669257725 0
-103C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\index.e5113480.js.map133689055669337519 0
-92C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\index.html133689055669177921 0
-99C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Login.48907117.js133689050451680879 0
-103C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Login.48907117.js.map133689050451820522 0
-100C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Login.bb60b614.css133689050406163063 0
-104C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Login.bb60b614.css.map133689050406252807 0
-91C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\up_\Login133689057064910891 1
-110C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\up_\Login\Login.bb60b614.css133689057064820988 0
-109C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\up_\Login\Login.48907117.js133689057064811014 0
-113C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\up_\Login\Login.48907117.js.map133689057064890824 0
-107C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Registro.56dad6fb.css.map133689057064890824 0
-102C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Registro.07b8583f.js133689057065259825 0
-112C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Comunidad icon-01.d371a011.png133689057065359553 0
-112C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Comunidad icon-01.eac94d76.png133689057065419398 0
+106C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Captura fwd.9bcc0ea0.jpg133689148420578921 0
+112C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Comunidad icon-01.c2914f74.png133689148420638525 0
+105C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Estudiantes.0e6b1bc2.js133689144324422865 0
+109C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Estudiantes.0e6b1bc2.js.map133689144324432817 0
+98C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Estudiantes.html133689144324452762 0
+99C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\index.e5113480.js133689148420907724 0
+103C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\index.e5113480.js.map133689148420957572 0
+92C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\index.html133689148420837915 0
+99C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Login.48907117.js133689144324462730 0
+103C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Login.48907117.js.map133689144324472706 0
+100C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Login.bb60b614.css133689144324482694 0
+104C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Login.bb60b614.css.map133689144324482694 0
+91C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\up_\Login133689167230304211 1
+109C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\up_\Login\Login.48907117.js133689167229675879 0
+113C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\up_\Login\Login.48907117.js.map133689167229785712 0
+110C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\up_\Login\Login.bb60b614.css133689167230164587 0
+107C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Registro.56dad6fb.css.map133689167230264309 0
+102C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Registro.07b8583f.js133689167230334176 0
+112C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Comunidad icon-01.eac94d76.png133689167230354074 0
+112C:\Users\Bolivar Araya\Desktop\permiso de computadoras\Permisos-Computadoras\dist\Comunidad icon-01.d371a011.png133689167230354074 0
