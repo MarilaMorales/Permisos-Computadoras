@@ -35,5 +35,17 @@
       "correo": "estrella@gmail.com",
       "password": "3322"
     }
+  ],
+  "permisos": [
+    {},
+    {
+      "id": "5c5c",
+      "usuario": "Nixon Blanco",
+      "sede": "Sede El Huerto",
+      "fechaSalida": "2024-08-22",
+      "fechaRegreso": "2024-08-23",
+      "codigoComputadora": "JD667S2",
+      "condicionesAceptadas": true
+    }
   ]
 }
