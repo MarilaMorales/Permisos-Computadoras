@@ -37,6 +37,7 @@ btnEnviar.addEventListener("click", async function(event) {
     // Guardar el nuevo usuario en el servidor
     try {
         await postUser(usuario, correo , password);
+        await postUser(usuario, correo, password);
 
         alert("Usuario registrado.");
         // window.location.href = "../LogIn/LogIn.html";
@@ -107,3 +108,14 @@ btnEnviarAdmin.addEventListener("click", async function(event) {
         console.error('Error al registrar Administrador', error);
     }
 });
+
+
+
+let loginBtn = document.getElementById("loginBtn")
+
+
+if (loginBtn) {
+    loginBtn.addEventListener("click" , function name(params) {
+        
+    })
+}

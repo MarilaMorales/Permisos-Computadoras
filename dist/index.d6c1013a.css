@@ -1,0 +1,71 @@
+body {
+  background-color: #90e6f3;
+  background-image: url("Comunidad icon-01.c2914f74.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+
+#logo {
+  opacity: .8;
+  background-color: #0000;
+  width: 200px;
+  position: absolute;
+  top: 2em;
+  left: 10px;
+}
+
+.container {
+  text-align: center;
+  backdrop-filter: blur(4px);
+  background-color: #0000;
+  border-radius: 8px;
+  height: 140px;
+  padding: 40px;
+  position: absolute;
+  top: 8.5em;
+  box-shadow: inset 0 -3em 3em #00c8434d, 0 0 0 2px #40e0d0, .3em .3em 1em #e6e1ddae;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.button-container {
+  justify-content: space-around;
+  display: flex;
+}
+
+.btn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: background-color .3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+@media (width <= 600px) {
+  .button-container {
+    flex-direction: column;
+  }
+
+  .btn {
+    margin-bottom: 10px;
+  }
+}
+/*# sourceMappingURL=index.d6c1013a.css.map */

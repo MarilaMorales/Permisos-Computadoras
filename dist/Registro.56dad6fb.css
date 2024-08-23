@@ -7,8 +7,9 @@
 }
 
 body {
-  background: url("fondoRegistro.748f3bb9.jpeg") center / cover;
+  background: #0ff url("Comunidad icon-01.eac94d76.png") center / cover no-repeat;
   justify-content: center;
+  align-items: center;
   min-height: 100vh;
   display: flex;
 }

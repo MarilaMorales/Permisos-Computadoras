@@ -40,6 +40,33 @@ async function GetAdmins() {
     }
 }
 
+
+async function getPermisos() {
+    try {
+        let response = await fetch('http://localhost:3001/permisos', {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        });
+
+        if (!response.ok) {
+            throw new Error('Error al obtener solicitudes');
+        }
+
+        let permisos = await response.json();
+        return permisos;
+    } catch (error) {
+        console.error('Error al obtener solicitudes:', error);
+        throw error;
+    }
+}
+
+
+
+
 export {GetAdmins}
 
 export { getUsers };
+
+export {getPermisos}

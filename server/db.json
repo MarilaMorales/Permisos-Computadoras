@@ -21,6 +21,18 @@
       "nombre": "Nana",
       "correo": "nana@gmail.com",
       "password": "1212"
+    },
+    {
+      "id": "bc9b",
+      "nombre": "sheyris",
+      "correo": "sheyris@gmail.com",
+      "password": "1314"
+    },
+    {
+      "id": "d988",
+      "nombre": "sheyris",
+      "correo": "sheyris@gmail.com",
+      "password": "1314"
     }
   ],
   "admins": [
@@ -37,7 +49,9 @@
     }
   ],
   "permisos": [
-    {},
+    {
+      "id": "10b2"
+    },
     {
       "id": "5c5c",
       "usuario": "Nixon Blanco",
@@ -45,6 +59,15 @@
       "fechaSalida": "2024-08-22",
       "fechaRegreso": "2024-08-23",
       "codigoComputadora": "JD667S2",
+      "condicionesAceptadas": true
+    },
+    {
+      "id": "84e2",
+      "usuario": "carlos lopez",
+      "sede": "Sede El Huerto",
+      "fechaSalida": "2024-08-22",
+      "fechaRegreso": "2024-08-23",
+      "codigoComputadora": "JD657S2",
       "condicionesAceptadas": true
     }
   ]
