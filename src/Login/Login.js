@@ -19,8 +19,7 @@ loginButton.addEventListener("click", async function () {
         if (user) {
             if (user.password === passwordValue) {
                 alert("¡Éxito! Usuario normal entrando.");
-                window.location.href= "http://localhost:1234/Estudiantes.html";
-                
+                window.location.href="http://http://localhost:1234/Estudiantes.html"
             } else {
                 alert("Contraseña incorrecta.");
             }
@@ -31,6 +30,7 @@ loginButton.addEventListener("click", async function () {
             if (useradmin) {
                 if (useradmin.password === passwordValue) {
                     alert("¡Éxito! Administrador entrando.");
+                    window.location.href="http://http://localhost:1234/Administracion.html"
                 } else {
                     alert("Contraseña incorrecta para administrador.");
                 }

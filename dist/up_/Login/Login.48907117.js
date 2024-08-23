@@ -600,14 +600,20 @@ loginButton.addEventListener("click", async function() {
         if (user) {
             if (user.password === passwordValue) {
                 alert("\xa1\xc9xito! Usuario normal entrando.");
+<<<<<<< HEAD
+                window.location.href = "http://http://localhost:1234/Estudiantes.html";
+=======
                 window.location.href = "http://localhost:1234/Estudiantes.html";
+>>>>>>> e4ef093b723c1bb9a9c28b3a3b72f9a52e75ae20
             } else alert("Contrase\xf1a incorrecta.");
         } else {
             // Si no se encuentra en los usuarios, buscar en la lista de administradores
             const useradmin = adminAppi.find((admin)=>admin.correo === emailValue);
             if (useradmin) {
-                if (useradmin.password === passwordValue) alert("\xa1\xc9xito! Administrador entrando.");
-                else alert("Contrase\xf1a incorrecta para administrador.");
+                if (useradmin.password === passwordValue) {
+                    alert("\xa1\xc9xito! Administrador entrando.");
+                    window.location.href = "http://http://localhost:1234/Administracion.html";
+                } else alert("Contrase\xf1a incorrecta para administrador.");
             } else alert("Este usuario no existe.");
         }
     } catch (error) {
