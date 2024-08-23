@@ -1,5 +1,6 @@
-import { getPermisos } from "../get.js";
-import { putSolicitud } from "/Users/mgonz/Desktop/Permisos-Computadora/Premisos-Computadoras/services/put.js";
+import { getPermisos } from "../../services/get.js"; 
+import { putSolicitud } from "../../services/put.js"; // Ajusta según la estructura del proyecto
+
 
 
 
