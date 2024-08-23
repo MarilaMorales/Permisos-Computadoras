@@ -599,7 +599,7 @@ loginButton.addEventListener("click", async function() {
         if (user) {
             if (user.password === passwordValue) {
                 alert("\xa1\xc9xito! Usuario normal entrando.");
-                window.location.href = "http://127.0.0.1:5500/Permisos-Computadoras/src/Estudiantes/Estudiantes.html";
+                window.location.href = "http://http://localhost:1234/Estudiantes.html";
             } else alert("Contrase\xf1a incorrecta.");
         } else {
             // Si no se encuentra en los usuarios, buscar en la lista de administradores
