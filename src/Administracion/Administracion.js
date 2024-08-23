@@ -10,34 +10,21 @@ window.onload = function() {
 
 
 
+
 async function mostrarSolicitudes() {
-    console.log('Iniciando mostrarSolicitudes');
+    console.log('Mostrando solicitudes'); // Verifica si se llama
     try {
-        let solicitudes = await getPermisos();
-        console.log('Solicitudes obtenidas:', solicitudes); // Verifica el contenido
-        let solicitudesPendientes = filtrarSolicitudesPendientes(solicitudes);
-        console.log('Solicitudes pendientes:', solicitudesPendientes); // Verifica el filtrado
-        mostrarEnTabla(solicitudesPendientes);
+
+        let solicitudes = await getPermisos(); // Obtener solicitudes desde db.json
+        console.log(solicitudes); // Para ver que pu esta pasando
+        let solicitudesPendientes = filtrarSolicitudesPendientes(solicitudes); 
+        mostrarEnTabla(solicitudesPendientes); // Mostrar las solicitudes en la tabla
+
+
     } catch (error) {
         console.error('Error al mostrar solicitudes:', error);
     }
 }
-
-
-// async function mostrarSolicitudes() {
-//     console.log('Mostrando solicitudes'); // Verifica si se llama
-//     try {
-
-//         let solicitudes = await getPermisos(); // Obtener solicitudes desde db.json
-//         console.log(solicitudes); // Para ver que pu esta pasando
-//         let solicitudesPendientes = filtrarSolicitudesPendientes(solicitudes); 
-//         mostrarEnTabla(solicitudesPendientes); // Mostrar las solicitudes en la tabla
-
-
-//     } catch (error) {
-//         console.error('Error al mostrar solicitudes:', error);
-//     }
-// }
 
 
 

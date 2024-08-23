@@ -31,6 +31,7 @@ loginButton.addEventListener("click", async function () {
             if (useradmin) {
                 if (useradmin.password === passwordValue) {
                     alert("¡Éxito! Administrador entrando.");
+                    window.location.href= "http://localhost:1234/Administracion.html";
                 } else {
                     alert("Contraseña incorrecta para administrador.");
                 }

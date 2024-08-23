@@ -1,8 +1,5 @@
-5959
-119C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\caniuse-lite\data\features\object-fit.js133686490183675325 0
-112C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\cosmiconfig\dist\loaders.d.ts.map133686490171757039 0
-125C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\transformer-react-refresh-wrap\LICENSE133686490162285672 0
-146C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional-packages133686490187871940 0
+5968
+78C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\package.json133689097280754831 0
 83C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\package-lock.json133688176178996664 0
 97C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\.package-lock.json133686490591433938 0
 105C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\msgpackr\dist\node.cjs.map133686490173160185 0
@@ -28,7 +25,7 @@
 150C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\general.d.ts.map133686490169591958 0
 110C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\htmlnano\docs\package-lock.json133686490173205495 0
 111C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\source-map-js\lib\source-node.js133686490167896397 0
-70C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist133689062268531146 1
+70C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist133689097283213359 1
 159C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\source-map\parcel_sourcemap_wasm\dist-node\parcel_sourcemap_wasm_bg.wasm133686490175776518 0
 95C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\term-size\vendor133686490165378631 1
 88C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\env-paths133686490164971758 1
@@ -68,9 +65,9 @@
 112C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\caniuse-lite\dist\lib\statuses.js133686490185158752 0
 160C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\AtrulePrelude.js133686490166254373 0
 104C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\src\Administracion\Administracion.html133688997863254527 0
-84C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\src\Login\Login.js133689062268731054 0
 117C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\core\test\fixtures\main-global133686490178473303 1
-72C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\server133689062268606285 1
+72C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\server133689087910548003 1
+84C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\src\Login\Login.js133689096414289479 0
 81C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\src\Estudiantes133689062268691066 1
 115C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-tree\lib\syntax\config\walker.js133686490179277179 0
 113C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\dom-serializer\lib\foreignNames.js133686490164467294 0
@@ -88,12 +85,6 @@
 112C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-tree\cjs\generator\create.cjs133686490170235984 0
 85C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\stable133686490164919233 1
 80C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\src\Bienvenido133689062268646339 1
-95C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\timsort\index.js133686490164472392 0
-125C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\dom-serializer\node_modules\entities\readme.md133686490168684131 0
-114C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\runtime-js\lib\helpers\node133686490172471685 1
-135C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\csso\node_modules\css-tree\lib\syntax\node\Percentage.js133686490178664800 0
-139C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\csso\node_modules\css-tree\lib\syntax\node\MediaQueryList.js133686490178278884 0
-115C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\transformer-svg\package.json133686490167282731 0
 125C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\core\src\registerCoreWithSerializer.js133686490176771409 0
 98C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\term-size\readme.md133686490167136597 0
 104C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\src\Registro\img\Patron Flechas-01.png133688132955014646 0
@@ -113,17 +104,24 @@
 116C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\source-map\lib\source-map-consumer.js133686490167795877 0
 134C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Function.cjs133686490172695971 0
 75C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\src\Login133689062268731054 1
+115C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\package-manager\src\index.js133686490166977299 0
+101C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\semver\functions\eq.js133686490168096266 0
+110C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-select\lib\esm\package.json133686490170480781 0
+130C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_copy.c133686490172775165 0
+138C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\replace\atrule133686490172418422 1
+91C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\src\Bienvenido\index.html133689073889656617 0
 116C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\svgo\lib\svgo\css-select-adapter.d.ts133686490171522561 0
 79C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\src\Login\img133688176179322320 1
 123C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\csso\node_modules\css-tree\cjs\utils\url.cjs133686490176272735 0
 82C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\src\Registro\img133688354680303355 1
 127C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-select\node_modules\dom-serializer\README.md133686490167972048 0
 124C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\caniuse-lite\data\features\contenteditable.js133686490176272735 0
-92C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\src\Registro\Registro.html133689062268751034 0
 113C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\core\src\resolveOptions.js133686490176973837 0
+92C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\src\Registro\Registro.html133689062268751034 0
 110C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\type-fest\ts41\pascal-case.d.ts133686490170883156 0
 144C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\package-manager\test\fixtures\packages\peers-2.0\index.js133686490169411809 0
 155C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional-packages-test.ps1133686490187851951 0
+90C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\src\Registro\Registro.js133689063094398500 0
 132C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\posthtml\node_modules\posthtml-parser\dist\index.d.ts133686490166384136 0
 132C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-select\node_modules\domutils\lib\esm\package.json133686490169432390 0
 143C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\data\patch.json133686490176875896 0
@@ -159,6 +157,7 @@
 119C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-select\lib\pseudo-selectors\index.js133686490169179500 0
 106C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\dom-serializer\node_modules133686490149426942 1
 108C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-select\lib\esm\general.js133686490167972048 0
+86C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\src\Login\Login.html133689062268721051 0
 115C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\caniuse-lite\data\features\webusb.js133686490186594431 0
 120C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\src\Login\img\8873ae69-df05-49ce-bb07-47707e07dd23.jpg133688176179252268 0
 110C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\caniuse-lite\data\regions\SA.js133686490184648064 0
@@ -179,6 +178,12 @@
 96C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\base-x\LICENSE.md133686490164032610 0
 160C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\pseudo\nth-of-type.js133686490175620629 0
 90C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\safe-buffer133686490165113139 1
+95C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\timsort\index.js133686490164472392 0
+125C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\dom-serializer\node_modules\entities\readme.md133686490168684131 0
+98C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\src\Estudiantes\Estudiantes.html133689062268676312 0
+114C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\runtime-js\lib\helpers\node133686490172471685 1
+135C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\csso\node_modules\css-tree\lib\syntax\node\Percentage.js133686490178664800 0
+139C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\csso\node_modules\css-tree\lib\syntax\node\MediaQueryList.js133686490178278884 0
 105C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-what\lib\es\types.d.ts133686490170676609 0
 103C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\source-map\source-map.js133686490164628462 0
 96C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\src\Estudiantes\Estudiantes.js133688401659304031 0
@@ -191,23 +196,10 @@
 122C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\caniuse-lite\data\features\css-gradients.js133686490177600802 0
 117C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-tree\cjs\syntax\node\Condition.cjs133686490169574029 0
 109C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\lmdb\dependencies\lmdb-data-v1133686490162380992 1
-101C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\entities\lib\decode.js133686490166174594 0
-83C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\.bin133686490187831947 1
-124C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\bundler-default\src\DefaultBundler.js133686490165584028 0
-116C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\source-map\dist\source-map.min.js.map133686490171572674 0
-126C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\csso\node_modules\css-tree\lib\syntax\create.js133686490177102923 0
-96C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\json5\lib\util.js133686490167855886 0
-115C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@swc\helpers\esm\_read_only_error.js133686490177303521 0
-115C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\svgo\plugins\removeElementsByAttr.js133686490174794275 0
-166C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\restructure\prepare\processSelector.js133686490172765010 0
-114C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\caniuse-lite\data\features\http2.js133686490181674031 0
-104C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@swc\types\index.d.ts.map133686490165506598 0
-121C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\core\lib\requests\DevDepRequest.js133686490174344025 0
-105C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\react-refresh\package.json133686490167262471 0
-128C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest5.c133686490174972226 0
-130C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\csso\node_modules\mdn-data\css\at-rules.schema.json133686490166715141 0
-139C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\csso\node_modules\css-tree\lib\syntax\node\index-generate.js133686490177773974 0
-126C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\posthtml\node_modules\posthtml-parser\readme.md133686490165975697 0
+138C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_stat.c133686490173260260 0
+96C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\js-yaml\README.md133686490171972230 0
+122C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\caniuse-lite\data\features\trusted-types.js133686490185774403 0
+89C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\src\Bienvenido\index.js133689062268656305 0
 93C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\src\Bienvenido\img\Logo.jpg133688176179112685 0
 105C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\js-yaml\lib\schema\json.js133686490169622520 0
 106C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\events\src\types.js133686490167474058 0
@@ -232,14 +224,14 @@
 111C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\react-error-overlay\lib\index.js133686490166473330 0
 83C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@swc133686490590515509 1
 96C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\srcset\index.d.ts133686490165113139 0
-80C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\server\db.json133689062268606285 0
+80C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\server\db.json133689087910528609 0
 124C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@swc\helpers\_\_iterable_to_array_limit_loose133686490179277179 1
 112C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@swc\helpers\cjs\_await_value.cjs133686490167972048 0
 120C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\caniuse-lite\data\features\input-color.js133686490181989887 0
 90C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\cosmiconfig133686490172775165 1
 127C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-svgo\node_modules\mdn-data\css133686490171202238 1
 110C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-tree\lib\lexer\structure.js133686490178934132 0
-102C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\src\Administracion\Administracion.js133689003341995033 0
+102C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\src\Administracion\Administracion.js133689088794566035 0
 88C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\lmdb\dict133686490177343513 1
 93C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\csso\lib\clean133686490175745848 1
 84C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\services\delete.js133686392715461907 0
@@ -258,6 +250,10 @@
 122C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\transformer-svg\lib\dependencies.js133686490163015390 0
 85C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@lezer133686490149112592 1
 110C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\caniuse-lite\data\regions\SD.js133686490184748770 0
+101C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\entities\lib\decode.js133686490166174594 0
+83C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\.bin133686490187831947 1
+124C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\bundler-default\src\DefaultBundler.js133686490165584028 0
+116C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\source-map\dist\source-map.min.js.map133686490171572674 0
 115C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\caniuse-lite\data\features\mathml.js133686490182897491 0
 101C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-tree\lib\generator133686490178974213 1
 113C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\node-addon-api\tools\conversion.js133686490168973991 0
@@ -489,7 +485,7 @@
 152C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-select\node_modules\entities\lib\esm\generated\decode-data-xml.js.map133686490171631794 0
 122C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-tree\lib\definition-syntax\tokenizer.js133686490178974213 0
 133C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\csso\node_modules\css-tree\lib\syntax\config\parser.js133686490178654804 0
-101C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\Comunidad icon-01.d371a011.png133689061500362024 0
+101C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\Comunidad icon-01.d371a011.png133689097282641705 0
 117C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-tree\lib\syntax\node\Identifier.js133686490177875320 0
 101C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\nth-check\lib\parse.js133686490166394398 0
 129C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\caniuse-lite\data\features\prefers-color-scheme.js133686490184174875 0
@@ -556,7 +552,7 @@
 97C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\source-map\LICENSE133686490163609508 0
 118C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\core\src\dumpGraphToGraphViz.js133686490174472178 0
 89C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\micromatch133686490164344917 1
-92C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\Index.bed47b7f.js.map133689061500260987 0
+92C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\Index.bed47b7f.js.map133689097282641705 0
 101C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\tslib\modules\index.js133686490163947354 0
 117C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\csso\node_modules\css-tree\lib\data.js133686490177450702 0
 87C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\msgpackr133686490174072681 1
@@ -860,7 +856,7 @@
 112C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\htmlnano\docs\docs\040-presets.md133686490174195236 0
 110C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\caniuse-lite\data\regions\TR.js133686490185672937 0
 104C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\htmlparser2\lib\Parser.js133686490164813980 0
-80C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\up_\Login133689062268586303 1
+80C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\up_\Login133689097282996972 1
 97C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\escalade\readme.md133686490165378631 0
 134C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-select\node_modules\domutils\lib\esm\feeds.d.ts.map133686490169733519 0
 110C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\caniuse-lite\data\regions\MG.js133686490183092537 0
@@ -1078,12 +1074,12 @@
 125C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\node-gyp-build-optional-packages\build-test.js133686490163458134 0
 108C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-swc\LICENSE133686490162335712 0
 96C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\term-size\license133686490164284771 0
-104C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\posthtml-parser\readme.md133686490166473330 0
-125C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-tree\cjs\syntax\node\AttributeSelector.cjs133686490167213794 0
 101C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\term-size\package.json133686490166822369 0
 126C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\core\test\fixtures\config-node-pipeline133686490165784186 1
 137C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\tokenizer133686490176610566 1
 100C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-what\package.json133686490167744679 0
+125C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-tree\cjs\syntax\node\AttributeSelector.cjs133686490167213794 0
+104C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\posthtml-parser\readme.md133686490166473330 0
 105C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\term-size\vendor\.DS_Store133686490162472077 0
 114C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\msgpackr\dist\index-no-eval.cjs.map133686490171717015 0
 118C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\htmlnano\lib\modules\removeComments.mjs133686490175660631 0
@@ -1119,13 +1115,15 @@
 118C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\svgo\plugins\cleanupEnableBackground.js133686490173090061 0
 112C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@swc\helpers\_\index\package.json133686490180072445 0
 101C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\supports-color\license133686490162075647 0
+109C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@babel\code-frame\lib\index.js133686490163671918 0
+107C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\posthtml-parser\package.json133686490165282228 0
 109C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\svgo\plugins\collapseGroups.js133686490173375554 0
 113C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\svgo\plugins\removeRasterImages.js133686490175097115 0
 114C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\dom-serializer\lib\esm\package.json133686490166323369 0
 108C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\svgo\plugins\convertColors.js133686490173474938 0
 135C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\csso\node_modules\css-tree\lib\syntax\node\Combinator.js133686490176973837 0
 139C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\lightningcss-win32-x64-msvc\lightningcss.win32-x64-msvc.node133686490176176105 0
-108C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\up_\Registro\Registro.07b8583f.js.map133689061500362024 0
+108C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\up_\Registro\Registro.07b8583f.js.map133689097282762946 0
 117C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\svgo\plugins\convertEllipseToCircle.js133686490173474938 0
 112C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@swc\helpers\cjs\_ts_metadata.cjs133686490175196854 0
 130C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@babel\highlight\node_modules\color-name\.npmignore133686490162872390 0
@@ -1189,6 +1187,16 @@
 99C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\safe-buffer\index.js133686490162783201 0
 138C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\caniuse-lite\data\features\background-repeat-round-space.js133686490173873268 0
 114C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\svgo\plugins\removeEditorsNSData.js133686490174752789 0
+126C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\csso\node_modules\css-tree\lib\syntax\create.js133686490177102923 0
+96C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\json5\lib\util.js133686490167855886 0
+115C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@swc\helpers\esm\_read_only_error.js133686490177303521 0
+115C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\svgo\plugins\removeElementsByAttr.js133686490174794275 0
+166C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\restructure\prepare\processSelector.js133686490172765010 0
+114C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\caniuse-lite\data\features\http2.js133686490181674031 0
+104C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@swc\types\index.d.ts.map133686490165506598 0
+121C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\core\lib\requests\DevDepRequest.js133686490174344025 0
+105C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\react-refresh\package.json133686490167262471 0
+128C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest5.c133686490174972226 0
 116C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\svgo\plugins\removeEmptyContainers.js133686490174886060 0
 110C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\svgo\plugins\removeEmptyText.js133686490174936563 0
 101C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\picomatch\lib\utils.js133686490166619573 0
@@ -1254,6 +1262,7 @@
 102C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\picocolors\package.json133686490164432615 0
 110C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\caniuse-lite\data\regions\AE.js133686490167190432 0
 100C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\posthtml\node_modules133686490149426942 1
+97C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\Administracion.a500a5cb.js133689096964513513 0
 103C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\csso\cjs\clean\index.cjs133686490170395107 0
 133C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\csso\node_modules\css-tree\lib\syntax\node\Function.js133686490177600802 0
 133C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-select\node_modules\entities\lib\esm\escape.js.map133686490173355580 0
@@ -1449,7 +1458,7 @@
 98C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\color-name\index.js133686490162783201 0
 127C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@swc\helpers\_\_non_iterable_spread\package.json133686490179442575 0
 102C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\semver\ranges\subset.js133686490172975030 0
-99C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\up_\Login\Login.bb60b614.css133689061500043842 0
+99C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\up_\Login\Login.bb60b614.css133689097282908723 0
 130C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\csso\node_modules\css-tree\lib\syntax\node\Block.js133686490176771409 0
 110C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\semver\ranges\to-comparators.js133686490173075560 0
 107C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\semver\internal\constants.js133686490167448939 0
@@ -1478,9 +1487,6 @@
 115C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\core\src\loadParcelPlugin.js133686490175600629 0
 130C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Hash.cjs133686490173270251 0
 103C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\semver\functions\diff.js133686490167896397 0
-115C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\package-manager\src\index.js133686490166977299 0
-101C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\semver\functions\eq.js133686490168096266 0
-110C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-select\lib\esm\package.json133686490170480781 0
 151C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\Selector.js133686490176110704 0
 91C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\domutils\lib133686490170480781 1
 102C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\semver\functions\inc.js133686490169239702 0
@@ -1574,8 +1580,6 @@
 110C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\posthtml-render\dist\index.d.ts133686490166104485 0
 133C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\package-manager\test\fixtures\packages\foo-2.0133686490172775165 1
 99C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\posthtml-parser\dist133686490167082598 1
-109C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@babel\code-frame\lib\index.js133686490163671918 0
-107C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\posthtml-parser\package.json133686490165282228 0
 127C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@swc\helpers\cjs\_object_destructuring_empty.cjs133686490174225225 0
 101C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\msgpackr\node-index.js133686490169249718 0
 117C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\posthtml-parser\dist\chunk.T6SARJYH.js133686490162957038 0
@@ -1613,6 +1617,9 @@
 137C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-svgo\node_modules\mdn-data\l10n\index.js133686490165673883 0
 121C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\posthtml\node_modules\posthtml-parser\dist133686490166649916 1
 121C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\lightningcss\node\browserslistToTargets.js133686490166883333 0
+130C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\csso\node_modules\mdn-data\css\at-rules.schema.json133686490166715141 0
+139C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\csso\node_modules\css-tree\lib\syntax\node\index-generate.js133686490177773974 0
+126C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\posthtml\node_modules\posthtml-parser\readme.md133686490165975697 0
 143C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\posthtml\node_modules\posthtml-parser\dist\location-tracker.d.ts133686490166735160 0
 96C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\lmdb\node_modules133686490149416933 1
 158C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\replace\property\background.js133686490168458382 0
@@ -1858,7 +1865,7 @@
 102C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\node-addon-api\index.js133686490169432390 0
 110C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\caniuse-lite\data\regions\DZ.js133686490179916690 0
 131C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\csso\node_modules\mdn-data\css\selectors.schema.json133686490170289734 0
-98C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\up_\Login\Login.48907117.js133689062268551137 0
+98C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\up_\Login\Login.48907117.js133689097282586307 0
 104C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\node-addon-api\LICENSE.md133686490169774922 0
 134C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@swc\helpers\_\_class_apply_descriptor_get\package.json133686490178183827 0
 113C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\htmlnano\lib\modules\minifyCss.cjs133686490169174389 0
@@ -1919,6 +1926,8 @@
 135C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\restructure133686490173398668 1
 135C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\msgpackr-extract\node_modules\detect-libc\lib\process.js133686490164919233 0
 124C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@swc\helpers\esm\_interop_require_wildcard.js133686490176973837 0
+125C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\transformer-react-refresh-wrap\LICENSE133686490162285672 0
+146C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional-packages133686490187871940 0
 114C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\caniuse-lite\data\features\audio.js133686490172872283 0
 159C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional-packages-optional.cmd133686490187821934 0
 127C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\packager-js\src\ScopeHoistingPackager.js133686490169432390 0
@@ -2179,9 +2188,6 @@
 136C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\Doxyfile133686490166394398 0
 137C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\intro.doc133686490175926088 0
 138C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_load.c133686490173090061 0
-138C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_stat.c133686490173260260 0
-96C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\js-yaml\README.md133686490171972230 0
-122C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\caniuse-lite\data\features\trusted-types.js133686490185774403 0
 134C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\midl.c133686490174266129 0
 114C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-tree\lib\syntax\function\var.js133686490179277179 0
 99C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\lightningcss\LICENSE133686490162216197 0
@@ -2202,7 +2208,6 @@
 130C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_copy.1133686490170150752 0
 153C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-select\node_modules\entities\lib\esm\generated\decode-data-html.js.map133686490170983352 0
 136C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@swc\helpers\_\_define_enumerable_properties\package.json133686490178921420 0
-130C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_copy.c133686490172775165 0
 108C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@swc\helpers\src\_extends.mjs133686490180871721 0
 99C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\globals\globals.json133686490164344917 0
 110C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\htmlnano\docs\docs\020-usage.md133686490173873268 0
@@ -2251,7 +2256,7 @@
 88C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\json5\lib133686490169933613 1
 129C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-tree\cjs\syntax\node\PseudoElementSelector.cjs133686490175821745 0
 128C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@swc\helpers\cjs\_possible_constructor_return.cjs133686490174472178 0
-88C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\Logo.125bd5bc.jpg133689061500332041 0
+88C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\Logo.125bd5bc.jpg133689097282908723 0
 94C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\json5\README.md133686490168458382 0
 121C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\core\lib\requests\TargetRequest.js133686490177432445 0
 101C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\json5\lib\unicode.d.ts133686490169774922 0
@@ -2328,8 +2333,8 @@
 101C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\is-number\package.json133686490161926789 0
 98C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\is-number\README.md133686490164432615 0
 129C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts133686490175271829 1
-108C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\workers\lib\Worker.js133686490173100186 0
 109C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@swc\helpers\scripts\errors.js133686490177773974 0
+108C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\workers\lib\Worker.js133686490173100186 0
 106C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\events\package.json133686490168287245 0
 94C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\is-json\LICENSE133686490164467294 0
 159C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\MediaFeature.js133686490175271829 0
@@ -2544,7 +2549,7 @@
 134C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\htmlnano\docs\versioned_docs\version-1.1.1\020-usage.md133686490173942601 0
 133C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\workers\test\integration\workerfarm\console.js133686490167645542 0
 136C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\htmlnano\docs\versioned_docs\version-1.1.1\040-presets.md133686490174245913 0
-103C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\up_\Login\Login.bb60b614.css.map133689061500250996 0
+103C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\up_\Login\Login.bb60b614.css.map133689097282986814 0
 140C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\clean\Comment.js133686490169249718 0
 101C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\runtime-js\lib133686490171651791 1
 106C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\domelementtype\lib\index.js133686490164472392 0
@@ -2751,7 +2756,7 @@
 97C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\domhandler\LICENSE133686490161951414 0
 95C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\cosmiconfig\dist133686490173672822 1
 99C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\domhandler\readme.md133686490166473330 0
-89C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\Index.d7502c39.css133689061500043842 0
+89C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\Index.d7502c39.css133689097282853023 0
 115C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-tree\lib\syntax\scope\default.js133686490177600802 0
 128C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\caniuse-lite\data\features\css-relative-colors.js133686490178614824 0
 103C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\domhandler\lib\node.d.ts133686490167272583 0
@@ -3005,6 +3010,8 @@
 122C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\csso\node_modules\css-tree\dist\version.cjs133686490176487613 0
 127C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\caniuse-lite\data\features\screen-orientation.js133686490184693260 0
 129C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\caniuse-lite\data\features\css-media-resolution.js133686490178040074 0
+121C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-tree\cjs\syntax\node\AtrulePrelude.cjs133686490166104485 0
+111C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\cosmiconfig\dist\Explorer.js.map133686490170140823 0
 135C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-select\node_modules\entities\lib\decode_codepoint.js133686490163153510 0
 121C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\csso\node_modules\css-tree\dist\version.js133686490179090848 0
 148C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeDoctype.js133686490173215493 0
@@ -3256,6 +3263,7 @@
 126C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-tree\lib\tokenizer\char-code-definitions.js133686490176973837 0
 110C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-tree\lib\tokenizer\names.js133686490178473303 0
 125C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\caniuse-lite\data\features\domcontentloaded.js133686490179856290 0
+97C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\up_\Registro\Registro.html133689097282366815 0
 111C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\cosmiconfig\dist\getDirectory.js133686490166695151 0
 116C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-tree\lib\tokenizer\TokenStream.js133686490179090848 0
 110C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-tree\lib\tokenizer\utils.js133686490179175931 0
@@ -3341,8 +3349,6 @@
 114C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-tree\cjs\syntax\scope\value.cjs133686490176630556 0
 115C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-tree\cjs\syntax\node\AnPlusB.cjs133686490164793983 0
 114C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-tree\cjs\syntax\node\Atrule.cjs133686490165378631 0
-121C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-tree\cjs\syntax\node\AtrulePrelude.cjs133686490166104485 0
-111C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\cosmiconfig\dist\Explorer.js.map133686490170140823 0
 116C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-tree\cjs\syntax\node\Brackets.cjs133686490167720678 0
 119C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\caniuse-lite\data\features\filereader.js133686490180703728 0
 112C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\caniuse-lite\data\features\ogv.js133686490183760382 0
@@ -3652,7 +3658,7 @@
 106C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\fs\src\OverlayFS.js133686490167825884 0
 126C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-select\lib\pseudo-selectors\subselects.d.ts133686490175374145 0
 130C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-select\lib\pseudo-selectors\subselects.d.ts.map133686490174149961 0
-93C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\Index.d7502c39.css.map133689061500250996 0
+93C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\Index.d7502c39.css.map133689097282908723 0
 124C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\css-select\lib\pseudo-selectors\subselects.js133686490170160761 0
 106C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@swc\helpers\esm\_update.js133686490177676191 0
 121C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@swc\helpers\_\_initializer_warning_helper133686490179090848 1
@@ -3733,6 +3739,8 @@
 110C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\cosmiconfig\dist\index.d.ts.map133686490171522561 0
 104C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\cosmiconfig\dist\index.js133686490167374362 0
 108C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\cosmiconfig\dist\loaders.d.ts133686490173474938 0
+119C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\caniuse-lite\data\features\object-fit.js133686490183675325 0
+112C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\cosmiconfig\dist\loaders.d.ts.map133686490171757039 0
 106C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\cosmiconfig\dist\loaders.js133686490167675523 0
 110C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\cosmiconfig\dist\loaders.js.map133686490171856338 0
 126C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\caniuse-lite\data\features\css-focus-visible.js133686490177495668 0
@@ -4891,6 +4899,7 @@
 100C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\types\LICENSE133686490162256212 0
 102C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\types\unsafe.js133686490165173503 0
 108C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\types\lib\unsafe.d.ts133686490167027384 0
+115C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\transformer-svg\package.json133686490167282731 0
 106C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\transformer-svg\src133686490166862376 1
 107C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\transformer-svg\test133686490166174594 1
 128C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\transformer-svg\test\parseFuncIRI.test.js133686490166273287 0
@@ -4901,6 +4910,7 @@
 123C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-htmlnano\node_modules\csso133686490173672822 1
 124C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\transformer-svg\lib\SVGTransformer.js133686490166629968 0
 121C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\transformer-react-refresh-wrap\lib133686490165378631 1
+101C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\Administracion.a500a5cb.js.map133689096964513513 0
 130C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\transformer-react-refresh-wrap\package.json133686490167047398 0
 121C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\transformer-react-refresh-wrap\src133686490166313398 1
 129C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\transformer-react-refresh-wrap\src\helpers133686490166649916 1
@@ -5266,8 +5276,6 @@
 171C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\restructure\prepare\createDeclarationIndexer.js133686490169693355 0
 162C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\restructure\prepare\processSelector.js133686490172757130 0
 158C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\restructure\prepare\specificity.js133686490172975030 0
-91C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\src\Bienvenido\index.html133689062268636269 0
-138C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\replace\atrule133686490172418422 1
 122C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\core\test\fixtures\config\.parcelrc133686490167474058 0
 144C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\replace\Dimension.js133686490171611841 0
 140C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\replace\index.js133686490172116073 0
@@ -5404,6 +5412,7 @@
 128C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-svgo\node_modules\.bin\svgo.cmd133686490187821934 0
 121C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@babel\helper-validator-identifier\scripts133686490167429292 1
 106C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-image\lib133686490162783201 1
+81C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\Index.html133689097283213359 0
 110C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-image\LICENSE133686490162365715 0
 115C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-image\package.json133686490164022610 0
 124C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-image\lib\ImageOptimizer.js133686490163068524 0
@@ -5513,6 +5522,7 @@
 154C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\replace\property\border.js133686490168638813 0
 159C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\replace\property\font-weight.js133686490171707035 0
 143C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\clean\Atrule.js133686490167474058 0
+105C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\up_\Registro\Registro.56dad6fb.css133689097282853023 0
 148C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\clean\Declaration.js133686490171522561 0
 149C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\clean\TypeSelector.js133686490173140154 0
 142C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\clean\utils.js133686490173345562 0
@@ -5932,14 +5942,18 @@
 94C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\.bin\semver.cmd133686490187841936 0
 106C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\.bin\update-browserslist-db133686490187851951 0
 110C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\node_modules\.bin\update-browserslist-db.ps1133686490187851951 0
-74C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\up_133688977598150785 1
-83C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\up_\Registro133689062267776814 1
-87C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\fwd.8fb28dd6.png133689061500063859 0
-109C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\up_\Registro\Registro.56dad6fb.css.map133689061500250996 0
-101C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\Comunidad icon-01.eac94d76.png133689061500322039 0
+98C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\Administracion.8d48c7e7.css133689096964269802 0
+102C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\Administracion.8d48c7e7.css.map133689096964351014 0
+90C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\Administracion.html133689096964321890 0
+101C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\Comunidad icon-01.eac94d76.png133689097282908723 0
 95C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\Estudiantes.60bb68df.css133689062268329227 0
 99C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\Estudiantes.60bb68df.css.map133689062268339923 0
-88C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\Index.bed47b7f.js133689062268375962 0
+101C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\Fondo de Pantalla.1946422f.png133689096964321890 0
+87C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\fwd.8fb28dd6.png133689097282381666 0
+88C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\Index.bed47b7f.js133689097282586307 0
+89C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\index.d6c1013a.css133689062268481084 0
+93C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\index.d6c1013a.css.map133689062268501174 0
+88C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\index.e5113480.js133689062268511168 0
 88C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\Login.48907117.js133689062268386024 0
 92C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\Login.48907117.js.map133689062268396022 0
 89C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\Login.bb60b614.css133689062268406020 0
@@ -5947,14 +5961,9 @@
 81C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\Login.html133689062268426043 0
 95C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\Registro.07b8583f.js.map133689062268436023 0
 92C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\Registro.56dad6fb.css133689062268456031 0
-89C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\index.d6c1013a.css133689062268481084 0
-93C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\index.d6c1013a.css.map133689062268501174 0
-88C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\index.e5113480.js133689062268511168 0
-81C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\index.html133689062268541136 0
-102C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\up_\Login\Login.48907117.js.map133689062268561137 0
-91C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\up_\Login\Login.html133689062268586303 0
-78C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\package.json133689062268596282 0
-89C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\src\Bienvenido\index.js133689062268656305 0
-98C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\src\Estudiantes\Estudiantes.html133689062268676312 0
-86C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\src\Login\Login.html133689062268721051 0
-90C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\src\Registro\Registro.js133689062268761033 0
+74C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\up_133688977598150785 1
+83C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\up_\Registro133689097282908723 1
+104C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\up_\Registro\Registro.07b8583f.js133689097282717754 0
+109C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\up_\Registro\Registro.56dad6fb.css.map133689097282908723 0
+102C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\up_\Login\Login.48907117.js.map133689097282626794 0
+91C:\Users\mgonz\Desktop\Permisos-Computadora\Premisos-Computadoras\dist\up_\Login\Login.html133689097282841399 0

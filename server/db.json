@@ -33,7 +33,14 @@
       "nombre": "sheyris",
       "correo": "sheyris@gmail.com",
       "password": "1314"
+    },
+    {
+      "id": "5046",
+      "nombre": "andrea fallas",
+      "correo": "andrea@gmail.com",
+      "password": "2312"
     }
+    
   ],
   "admins": [
     {
@@ -59,22 +66,12 @@
       "id": "10b2"
     },
     {
-      "id": "5c5c",
-      "usuario": "Nixon Blanco",
-      "sede": "Sede El Huerto",
-      "fechaSalida": "2024-08-22",
-      "fechaRegreso": "2024-08-23",
-      "codigoComputadora": "JD667S2",
-      "condicionesAceptadas": true
+      "estado": "aceptado",
+      "id": "5c5c"
     },
     {
-      "id": "84e2",
-      "usuario": "carlos lopez",
-      "sede": "Sede El Huerto",
-      "fechaSalida": "2024-08-22",
-      "fechaRegreso": "2024-08-23",
-      "codigoComputadora": "JD657S2",
-      "condicionesAceptadas": true
+      "estado": "aceptado",
+      "id": "84e2"
     }
   ]
 }
