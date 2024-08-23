@@ -1,17 +1,11 @@
-async function putSolicitud(id, nuevoEstado) {
+export async function putSolicitud(id, nuevoEstado) {
     try {
-        let solicitudData = { 
-            estado: nuevoEstado 
-        };
-        let response = await fetch('db.json', {
+        const response = await fetch(`http://localhost:3001/permisos/${id}`, {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify({
-                id: id,
-                ...solicitudData
-            })
+            body: JSON.stringify({ estado: nuevoEstado })
         });
 
         if (!response.ok) {
@@ -24,3 +18,6 @@ async function putSolicitud(id, nuevoEstado) {
         throw error;
     }
 }
+
+
+export {putSolicitud}
