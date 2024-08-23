@@ -605,8 +605,10 @@ loginButton.addEventListener("click", async function() {
             // Si no se encuentra en los usuarios, buscar en la lista de administradores
             const useradmin = adminAppi.find((admin)=>admin.correo === emailValue);
             if (useradmin) {
-                if (useradmin.password === passwordValue) alert("\xa1\xc9xito! Administrador entrando.");
-                else alert("Contrase\xf1a incorrecta para administrador.");
+                if (useradmin.password === passwordValue) {
+                    alert("\xa1\xc9xito! Administrador entrando.");
+                    window.location.href = "http://http://localhost:1234/Administracion.html";
+                } else alert("Contrase\xf1a incorrecta para administrador.");
             } else alert("Este usuario no existe.");
         }
     } catch (error) {
