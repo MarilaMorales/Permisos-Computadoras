@@ -108,3 +108,14 @@ btnEnviarAdmin.addEventListener("click", async function(event) {
         console.error('Error al registrar Administrador', error);
     }
 });
+
+
+
+let loginBtn = document.getElementById("loginBtn")
+
+
+if (loginBtn) {
+    loginBtn.addEventListener("click" , function name(params) {
+        
+    })
+}
