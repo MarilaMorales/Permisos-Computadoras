@@ -7,8 +7,18 @@ let btnEnviarAdmin = document.getElementById("btnEnviarAdmin");
 
 
 
+document.getElementById('loginBtn').addEventListener('click', function() {
+    window.location.href = '"http://http://localhost:1234/Login.html"';
+});
+
+
+
+
+
 btnEnviar.addEventListener("click", async function(event) {
     event.preventDefault();
+
+
 
     // Obtener los valores ingresados por el usuario
     
