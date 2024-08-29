@@ -33,6 +33,30 @@
       "nombre": "sheyris",
       "correo": "sheyris@gmail.com",
       "password": "1314"
+    },
+    {
+      "id": "d907",
+      "nombre": "Hilda Juarez",
+      "correo": "hilda@gmail.com",
+      "password": "1212"
+    },
+    {
+      "id": "bfc8",
+      "nombre": "Hilda Juarez",
+      "correo": "hilda@gmail.com",
+      "password": "1212"
+    },
+    {
+      "id": "7d43",
+      "nombre": "Luna gomez",
+      "correo": "luna@gmail.com",
+      "password": "3456"
+    },
+    {
+      "id": "ffe9",
+      "nombre": "Luna gomez",
+      "correo": "luna@gmail.com",
+      "password": "3456"
     }
   ],
   "admins": [
@@ -50,34 +74,44 @@
   ],
   "permisos": [
     {
-      "id": "10b2"
-    },
-    {
-      "id": "5c5c",
-      "usuario": "Nixon Blanco",
+      "id": "b4ca",
+      "usuario": "Ana Rojas",
       "sede": "Sede El Huerto",
-      "fechaSalida": "2024-08-22",
-      "fechaRegreso": "2024-08-23",
-      "codigoComputadora": "JD667S2",
-      "condicionesAceptadas": true
+      "fechaSalida": "2024-08-27",
+      "fechaRegreso": "2024-08-28",
+      "codigoComputadora": "EW34",
+      "condicionesAceptadas": true,
+      "estado": "aceptado"
     },
     {
-      "id": "84e2",
-      "usuario": "carlos lopez",
-      "sede": "Sede El Huerto",
-      "fechaSalida": "2024-08-22",
-      "fechaRegreso": "2024-08-23",
-      "codigoComputadora": "JD657S2",
-      "condicionesAceptadas": true
-    },
-    {
-      "id": "6436",
-      "usuario": "sheyris davila",
+      "id": "920b",
+      "usuario": "Dina Soli",
       "sede": "Sede Santa Ana",
-      "fechaSalida": "2024-08-23",
-      "fechaRegreso": "2024-08-25",
-      "codigoComputadora": "JD647S2",
-      "condicionesAceptadas": true
+      "fechaSalida": "2024-08-27",
+      "fechaRegreso": "2024-08-29",
+      "codigoComputadora": "PO98",
+      "condicionesAceptadas": true,
+      "estado": "aceptado"
+    },
+    {
+      "id": "cf29",
+      "usuario": "Tonia Lowe",
+      "sede": "Sede Edunamica Nosara",
+      "fechaSalida": "2024-08-26",
+      "fechaRegreso": "2024-08-29",
+      "codigoComputadora": "DE92",
+      "condicionesAceptadas": true,
+      "estado": "aceptado"
+    },
+    {
+      "id": "bcb8",
+      "usuario": "rebeca juan",
+      "sede": "Sede Edunamica Nosara",
+      "fechaSalida": "2024-08-28",
+      "fechaRegreso": "2024-08-31",
+      "codigoComputadora": "YT514",
+      "condicionesAceptadas": true,
+      "estado": "rechazado"
     }
   ]
 }
