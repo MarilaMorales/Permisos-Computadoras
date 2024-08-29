@@ -105,7 +105,37 @@
     },
     {
       "estado": "rechazado",
-      "id": "b6a0"
+      "id": "81b8"
+    },
+    {
+      "estado": "rechazado",
+      "id": "2a33"
+    },
+    {
+      "estado": "rechazado",
+      "id": "e9e8"
+    },
+    {
+      "estado": "aceptado",
+      "id": "e863"
+    },
+    {
+      "id": "8fb9",
+      "usuario": "Gilo Yu",
+      "sede": "Sede Edunamica Nosara",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-08-31",
+      "codigoComputadora": "RE51",
+      "condicionesAceptadas": true
+    },
+    {
+      "id": "1f43",
+      "usuario": "Lios Fallas",
+      "sede": "Sede Santa Ana",
+      "fechaSalida": "2024-08-31",
+      "fechaRegreso": "2024-09-01",
+      "codigoComputadora": "TE91",
+      "condicionesAceptadas": true
     }
   ]
 }

@@ -6,8 +6,7 @@ window.onload = function() {
     mostrarHistorial(); // Llama a la función para mostrar el historial al cargar
 
     // Asignar event listener al botón de búsqueda
-    let botonBuscar = document.querySelector('.btn-outline-success');
-    botonBuscar.addEventListener('click', filtrarSolicitudes);
+    document.querySelector('.btn-outline-success').addEventListener('click', filtrarSolicitudes);
 
     // Asignar event listener al select para filtrar por estado
     document.getElementById('solicitudSearch').addEventListener('change', function() {
@@ -15,7 +14,7 @@ window.onload = function() {
         filtrarSolicitudes();
       });
 
-      // Declarar variable estadoSelect
+     
     let estadoSelect = '';
 
     // Asignar event listener al campo de búsqueda para filtrar mientras se escribe
@@ -147,19 +146,116 @@ function mostrarHistorialEnTabla(solicitudes) {
 
 filtrarSolicitudes()
 
+
+
 async function filtrarSolicitudes() {
     try {
         let solicitudes = await getPermisos();
 
-        let aceptadas = solicitudes.filter((element) => element.estado == 'aceptado')
+        let aceptadas = solicitudes.filter((element) => element.estado == 'aprobada');
+        let rechazadas = solicitudes.filter((element) => element.estado == 'rechazada');
 
         console.log(aceptadas);
-        
+        console.log(rechazadas);
+
+        // Ahora obtén los valores de entrada para filtrar
+        let inputSearch = document.getElementById('inputSearch').value.toLowerCase().trim();
+        let estadoSelect = document.getElementById('solicitudSearch').value.trim();
+        let fechaInicio = document.getElementById('fechaInicio').value;
+        let fechaFinal = document.getElementById('fechaFinal').value;
+
+        // Convertir fechas a objetos Date si están definidas
+        if (fechaInicio) {
+            fechaInicio = new Date(fechaInicio);
+        } else {
+            fechaInicio = null;
+        }
+
+        if (fechaFinal) {
+            fechaFinal = new Date(fechaFinal);
+        } else {
+            fechaFinal = null;
+        }
+
+        // Filtrar solicitudes según el estado seleccionado
+        let solicitudesFiltradas = [];
+        if (estadoSelect === 'aprobada') {
+            solicitudesFiltradas = aceptadas;
+        } else if (estadoSelect === 'rechazada') {
+            solicitudesFiltradas = rechazadas;
+        } else {
+            solicitudesFiltradas = solicitudes;
+        }
+
+        // Aplicar filtros adicionales por nombre y fecha
+        solicitudesFiltradas = solicitudesFiltradas.filter(solicitud => {
+            let nombre = solicitud.nombre.toLowerCase().trim();
+            let fechaSalida = new Date(solicitud.fechaSalida);
+            let fechaRegreso = new Date(solicitud.fechaEntrega);
+
+            let nombreCoincide = nombre.includes(inputSearch);
+
+            let fechaDentroRango = true;
+            if (fechaInicio && fechaSalida < fechaInicio) {
+                fechaDentroRango = false;
+            }
+            if (fechaFinal && fechaRegreso > fechaFinal) {
+                fechaDentroRango = false;
+            }
+
+            return nombreCoincide && fechaDentroRango;
+        });
+
+        // Mostrar las solicitudes filtradas en la tabla
+        let tbody = document.getElementById('Historial').querySelector('tbody');
+        tbody.innerHTML = ''; // Limpiar la tabla antes de agregar los nuevos resultados
+
+        solicitudesFiltradas.forEach(solicitud => {
+            let fila = document.createElement('tr');
+            fila.classList.add('filaHistorial');
+
+            fila.innerHTML = `
+                <td class="nombre">${solicitud.nombre}</td>
+                <td>${solicitud.codigoComputadora}</td>
+                <td>${solicitud.fechaSalida}</td>
+                <td>${solicitud.fechaEntrega}</td>
+                <td class="estado">${solicitud.estado}</td>
+            `;
+
+            tbody.appendChild(fila);
+        });
+
     } catch (error) {
         console.error('Error al mostrar historial:', error);
     }
+}
 
-//   // Obtener los valores de entrada
+// Event listener para el botón de buscar
+
+
+
+
+
+
+
+
+
+// async function filtrarSolicitudes() {
+//     try {
+//         let solicitudes = await getPermisos();
+
+//         let aceptadas = solicitudes.filter((element) => element.estado == 'aceptado')
+//         let rechazadas = solicitudes.filter((element) => element.estado == 'rechazado')
+
+//         console.log(aceptadas);
+//         console.log(rechazadas);
+        
+//     } catch (error) {
+//         console.error('Error al mostrar historial:', error);
+//     }
+
+// //   // Obtener los valores de entrada
+
 //   let inputSearch = document.getElementById('inputSearch').value.toLowerCase().trim();
 //   let estadoSelect = document.getElementById('solicitudSearch').value.trim();
 //   let fechaInicio = document.getElementById('fechaInicio').value;
@@ -228,7 +324,11 @@ async function filtrarSolicitudes() {
 //       fila.style.display = 'none'; // Ocultar la fila
 //     }
 //   }
-}
+// }
+
+
+
+
 
 
 // Función para actualizar una solicitud
