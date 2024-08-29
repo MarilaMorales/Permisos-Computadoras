@@ -84,32 +84,6 @@
       "estado": "aceptado"
     },
     {
-      "estado": {
-        "id": "7b10",
-        "usuario": "Maria Morales",
-        "sede": "Sede Santa Ana",
-        "fechaSalida": "2024-08-27",
-        "fechaRegreso": "2024-08-30",
-        "codigoComputadora": "AQ12",
-        "condicionesAceptadas": true,
-        "estado": "aceptado"
-      },
-      "id": "7b10"
-    },
-    {
-      "estado": {
-        "id": "020a",
-        "usuario": "Nixon Blanco",
-        "sede": "Sede Santa Ana",
-        "fechaSalida": "2024-08-28",
-        "fechaRegreso": "2024-08-30",
-        "codigoComputadora": "FT65",
-        "condicionesAceptadas": true,
-        "estado": "aceptado"
-      },
-      "id": "020a"
-    },
-    {
       "id": "920b",
       "usuario": "Dina Soli",
       "sede": "Sede Santa Ana",
@@ -118,19 +92,6 @@
       "codigoComputadora": "PO98",
       "condicionesAceptadas": true,
       "estado": "aceptado"
-    },
-    {
-      "estado": {
-        "id": "5bc9",
-        "usuario": "Luna Lo",
-        "sede": "Sede El Huerto",
-        "fechaSalida": "2024-08-28",
-        "fechaRegreso": "2024-08-31",
-        "codigoComputadora": "RE76",
-        "condicionesAceptadas": true,
-        "estado": "rechazado"
-      },
-      "id": "5bc9"
     },
     {
       "id": "cf29",
@@ -149,7 +110,8 @@
       "fechaSalida": "2024-08-28",
       "fechaRegreso": "2024-08-31",
       "codigoComputadora": "YT514",
-      "condicionesAceptadas": true
+      "condicionesAceptadas": true,
+      "estado": "rechazado"
     }
   ]
 }
