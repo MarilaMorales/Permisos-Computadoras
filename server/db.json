@@ -104,14 +104,8 @@
       "estado": "aceptado"
     },
     {
-      "id": "bcb8",
-      "usuario": "rebeca juan",
-      "sede": "Sede Edunamica Nosara",
-      "fechaSalida": "2024-08-28",
-      "fechaRegreso": "2024-08-31",
-      "codigoComputadora": "YT514",
-      "condicionesAceptadas": true,
-      "estado": "rechazado"
+      "estado": "rechazado",
+      "id": "b6a0"
     }
   ]
 }
