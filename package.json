@@ -7,8 +7,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "npx parcel src/Registro/Registro.html  --open"
-
+    "start": "npx parcel src/Bienvenido/index.html && npx parcel src/Login/Login.html &&npx parcel src/Registro/Registro.html"
   },
   "keywords": [],
   "author": "",
