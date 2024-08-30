@@ -220,6 +220,24 @@
       "fechaRegreso": "2024-09-04",
       "codigoComputadora": "WS77",
       "condicionesAceptadas": true
+    },
+    {
+      "id": "8ba1",
+      "usuario": "Sabrina Luna",
+      "sede": "Sede Santa Ana",
+      "fechaSalida": "2024-09-01",
+      "fechaRegreso": "2024-09-05",
+      "codigoComputadora": "VX412",
+      "condicionesAceptadas": true
+    },
+    {
+      "id": "dfec",
+      "usuario": "Clara Gonza",
+      "sede": "Sede Edunamica Nosara",
+      "fechaSalida": "2024-09-01",
+      "fechaRegreso": "2024-09-05",
+      "codigoComputadora": "FR66",
+      "condicionesAceptadas": true
     }
   ]
 }
