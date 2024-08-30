@@ -220,6 +220,15 @@
       "fechaRegreso": "2024-09-04",
       "codigoComputadora": "WS77",
       "condicionesAceptadas": true
+    },
+    {
+      "id": "201d",
+      "usuario": "Nicole",
+      "sede": "Sede El Huerto",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-09-02",
+      "codigoComputadora": "12345",
+      "condicionesAceptadas": true
     }
   ]
 }
