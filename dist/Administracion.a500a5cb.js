@@ -142,14 +142,14 @@
       this[globalName] = mainExports;
     }
   }
-})({"aEMzq":[function(require,module,exports) {
+})({"hVW8J":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
 var HMR_USE_SSE = false;
-module.bundle.HMR_BUNDLE_ID = "9adccce007b8583f";
+module.bundle.HMR_BUNDLE_ID = "5ae39c98a500a5cb";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, HMR_USE_SSE, chrome, browser, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -583,89 +583,212 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     });
 }
 
-},{}],"a9TP5":[function(require,module,exports) {
+},{}],"2QBv6":[function(require,module,exports) {
 var _getJs = require("../../services/get.js");
-var _postJs = require("../../services/post.js");
-let btnEnviar = document.getElementById("btnRegistro");
-let btnEnviarAdmin = document.getElementById("btnEnviarAdmin");
-document.getElementById("loginBtn").addEventListener("click", function() {
-    window.location.href = '"http://http://localhost:1234/Login.html"';
-});
-btnEnviar.addEventListener("click", async function(event) {
-    event.preventDefault();
-    // Obtener los valores ingresados por el usuario
-    let usuario = document.getElementById("userName").value;
-    let correo = document.getElementById("email").value;
-    let password = document.getElementById("password").value;
-    if (usuario === "" || correo === "" || password === "") {
-        alert("Por favor, llena todos los campos");
-        return;
+var _putJs = require("../../services/put.js");
+window.onload = function() {
+    mostrarSolicitudes();
+    mostrarHistorial(); // Llama a la función para mostrar el historial al cargar
+    // Asignar event listener al botón de búsqueda
+    let botonBuscar = document.querySelector(".btn-outline-success");
+    botonBuscar.addEventListener("click", filtrarSolicitudes);
+    // Asignar event listener al select para filtrar por estado
+    document.getElementById("solicitudSearch").addEventListener("change", function() {
+        estadoSelect = this.value.trim();
+        filtrarSolicitudes();
+    });
+    // Declarar variable estadoSelect
+    let estadoSelect = "";
+    // Asignar event listener al campo de búsqueda para filtrar mientras se escribe
+    let inputSearch = document.getElementById("inputSearch");
+    inputSearch.addEventListener("input", filtrarSolicitudes);
+    // Manejo de la visibilidad de secciones
+    const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+    const sections = document.querySelectorAll("section");
+    function mostrarSeccion(targetId) {
+        sections.forEach(function(section) {
+            if (section.id === targetId) section.style.display = "block"; // Mostrar la sección seleccionada
+            else section.style.display = "none"; // Ocultar las demás secciones
+        });
     }
-    // Obtener usuarios desde el servidor
-    let users = await (0, _getJs.getUsers)();
-    console.log(users);
-    // Verificar si el usuario ya está registrado
-    let userExists = users.some((user)=>user.correo === correo);
-    if (userExists) {
-        alert("El usuario ya est\xe1 registrado");
-        return;
-    }
-    // Guardar el nuevo usuario en el servidor
+    navLinks.forEach(function(link) {
+        link.addEventListener("click", function(e) {
+            e.preventDefault(); // Prevenir el comportamiento predeterminado del enlace
+            const targetId = link.getAttribute("data-target"); // Obtener el id de la sección desde el data-target
+            mostrarSeccion(targetId);
+        });
+    });
+    // Mostrar la primera sección al cargar la página
+    mostrarSeccion("solicitudesPendientes");
+};
+// Función para mostrar las solicitudes pendientes
+async function mostrarSolicitudes() {
     try {
-        await (0, _postJs.postUser)(usuario, correo, password);
-        await (0, _postJs.postUser)(usuario, correo, password);
-        alert("Usuario registrado.");
-    // window.location.href = "../LogIn/LogIn.html";
+        let solicitudes = await (0, _getJs.getPermisos)();
+        let solicitudesPendientes = filtrarPendientes(solicitudes);
+        mostrarEnTabla(solicitudesPendientes);
     } catch (error) {
-        console.error("Error al registrar el usuario", error);
+        console.error("Error al mostrar solicitudes:", error);
     }
-});
-// Evento para verificar la contraseña del admin
-btnPassword.addEventListener("click", function() {
-    let passwordAdmin = "fwd2024";
-    let errorMsg = document.getElementById("mensajeError");
-    if (adminPassword.value === passwordAdmin) {
-        errorMsg.style.display = "none";
-        // Ocultar el primer modal
-        let modal1 = new bootstrap.Modal(document.getElementById("exampleModalToggle"));
-        modal1.hide();
-        // Mostrar el segundo modal
-        let modal2 = new bootstrap.Modal(document.getElementById("exampleModalToggle2"));
-        modal2.show();
-    } else errorMsg.style.display = "block";
-});
-btnEnviarAdmin.addEventListener("click", async function(event) {
-    event.preventDefault();
-    // Obtener los valores ingresados por el ADministrador
-    let admin = document.getElementById("usuarioAdmin").value;
-    let correoAdmin = document.getElementById("correoAdmin").value;
-    let passwordAdmin = document.getElementById("contrasenaAdmin").value;
-    if (admin === "" || correoAdmin === "" || passwordAdmin === "") {
-        alert("Por favor, llena todos los campos");
-        return;
-    }
-    // Obtener usuarios desde el servidor
-    let admins2 = await (0, _getJs.GetAdmins)();
-    console.log(admins2);
-    // Verificar si el usuario ya está registrado
-    let adminExists = admins2.some((admin3)=>admin3.correo === correoAdmin);
-    if (adminExists) {
-        alert("El usuario ya est\xe1 registrado");
-        return;
-    }
-    // Guardar el nuevo usuario en el servidor
+}
+// Función para mostrar todo el historial
+async function mostrarHistorial() {
     try {
-        await (0, _postJs.postAdmins)(admin, correoAdmin, passwordAdmin);
-        alert("Administrador Registrado.");
-    // window.location.href = "../LogIn/LogIn.html";
+        let solicitudes = await (0, _getJs.getPermisos)();
+        mostrarHistorialEnTabla(solicitudes);
+        filtrarSolicitudes(); // Filtrar después de mostrar
     } catch (error) {
-        console.error("Error al registrar Administrador", error);
+        console.error("Error al mostrar historial:", error);
     }
-});
-let loginBtn = document.getElementById("loginBtn");
-if (loginBtn) loginBtn.addEventListener("click", function name(params) {});
+}
+// Filtrar solicitudes que no tienen estado
+function filtrarPendientes(solicitudes) {
+    return solicitudes.filter(function(solicitud) {
+        return !solicitud.estado; // Filtra solicitudes que no tienen el campo 'estado' definido
+    });
+}
+// Mostrar solicitudes pendientes en la tabla
+function mostrarEnTabla(solicitudes) {
+    let tabla = document.getElementById("tablaSolicitudes");
+    let tbody = tabla.querySelector("tbody");
+    tbody.innerHTML = ""; // Limpiar la tabla
+    for(let i = 0; i < solicitudes.length; i++){
+        let solicitud = solicitudes[i];
+        let fila = document.createElement("tr");
+        let celdaNombre = document.createElement("td");
+        celdaNombre.textContent = solicitud.usuario;
+        fila.appendChild(celdaNombre);
+        let celdaCodigo = document.createElement("td");
+        celdaCodigo.textContent = solicitud.codigoComputadora;
+        fila.appendChild(celdaCodigo);
+        let celdaFechaSalida = document.createElement("td");
+        celdaFechaSalida.textContent = solicitud.fechaSalida;
+        fila.appendChild(celdaFechaSalida);
+        let celdaFechaEntrega = document.createElement("td");
+        celdaFechaEntrega.textContent = solicitud.fechaRegreso;
+        fila.appendChild(celdaFechaEntrega);
+        let celdaAcciones = document.createElement("td");
+        let botonAceptar = document.createElement("button");
+        botonAceptar.textContent = "Aceptar";
+        botonAceptar.onclick = function() {
+            actualizarSolicitud(solicitud.id, "aceptado");
+        };
+        celdaAcciones.appendChild(botonAceptar);
+        let botonRechazar = document.createElement("button");
+        botonRechazar.textContent = "Rechazar";
+        botonRechazar.onclick = function() {
+            actualizarSolicitud(solicitud.id, "rechazado");
+        };
+        celdaAcciones.appendChild(botonRechazar);
+        fila.appendChild(celdaAcciones);
+        tbody.appendChild(fila);
+    }
+}
+// Mostrar historial en la tabla
+function mostrarHistorialEnTabla(solicitudes) {
+    let tablaHistorial = document.getElementById("Historial");
+    let tbody = tablaHistorial.querySelector("tbody"); // Usar querySelector en lugar de getElementsByTagName
+    tbody.innerHTML = ""; // Limpiar la tabla
+    for(let i = 0; i < solicitudes.length; i++){
+        let solicitud = solicitudes[i];
+        let fila = document.createElement("tr");
+        fila.className = "filaHistorial"; // Añadido clase filaHistorial
+        let celdaNombre = document.createElement("td");
+        celdaNombre.className = "nombre"; // Añadido clase nombre
+        celdaNombre.textContent = solicitud.usuario;
+        fila.appendChild(celdaNombre);
+        let celdaCodigo = document.createElement("td");
+        celdaCodigo.textContent = solicitud.codigoComputadora;
+        fila.appendChild(celdaCodigo);
+        let celdaFechaSalida = document.createElement("td");
+        celdaFechaSalida.textContent = solicitud.fechaSalida;
+        fila.appendChild(celdaFechaSalida);
+        let celdaFechaEntrega = document.createElement("td");
+        celdaFechaEntrega.textContent = solicitud.fechaRegreso;
+        fila.appendChild(celdaFechaEntrega);
+        let celdaEstado = document.createElement("td");
+        celdaEstado.className = "estado"; // Añadido clase estado
+        celdaEstado.textContent = solicitud.estado || "Pendiente"; // Muestra 'Pendiente' si no hay estado
+        fila.appendChild(celdaEstado);
+        tbody.appendChild(fila);
+    }
+}
+// Función para filtrar solicitudes en el historial
+function filtrarSolicitudes() {
+    // Obtener los valores de entrada
+    let inputSearch = document.getElementById("inputSearch").value.toLowerCase().trim();
+    let estadoSelect = document.getElementById("solicitudSearch").value.trim();
+    let fechaInicio = document.getElementById("fechaInicio").value;
+    let fechaFinal = document.getElementById("fechaFinal").value;
+    // Convertir fechas a objetos Date si están definidas
+    if (fechaInicio) fechaInicio = new Date(fechaInicio);
+    else fechaInicio = null;
+    if (fechaFinal) fechaFinal = new Date(fechaFinal);
+    else fechaFinal = null;
+    // Obtener todas las filas del historial
+    let tbody = document.getElementById("Historial").querySelector("tbody");
+    let filas = tbody.getElementsByClassName("filaHistorial");
+    // Filtrar filas
+    let filteredRows = [];
+    for(let i = 0; i < filas.length; i++){
+        let fila = filas[i];
+        let nombre = fila.getElementsByClassName("nombre")[0].textContent.toLowerCase().trim();
+        let estado = fila.getElementsByClassName("estado")[0].textContent.toLowerCase().trim();
+        let fechaSalida = new Date(fila.children[2].textContent.trim());
+        let fechaRegreso = new Date(fila.children[3].textContent.trim());
+        // Verificar si el nombre coincide con la búsqueda
+        let nombreCoincide = nombre.includes(inputSearch);
+        // Verificar el estado
+        let estadoCoincide = false;
+        if (estadoSelect === "todos") estadoCoincide = true; // Mostrar todas las solicitudes si se selecciona 'todos'
+        else estadoCoincide = estado === estadoSelect; // Comparar el estado de la fila con el seleccionado
+        // Verificar si la fecha de salida y regreso están dentro del rango especificado
+        let fechaDentroRango = true;
+        if (fechaInicio && fechaSalida < fechaInicio) fechaDentroRango = false;
+        if (fechaFinal && fechaRegreso > fechaFinal) fechaDentroRango = false;
+        // Agregar fila a la lista de filas filtradas si coincide con los filtros
+        if (nombreCoincide && estadoCoincide && fechaDentroRango) filteredRows.push(fila);
+    }
+    // Mostrar u ocultar filas según la lista de filas filtradas
+    for(let i = 0; i < filas.length; i++){
+        let fila = filas[i];
+        if (filteredRows.includes(fila)) fila.style.display = ""; // Mostrar la fila
+        else fila.style.display = "none"; // Ocultar la fila
+    }
+}
+// Función para actualizar una solicitud
+async function actualizarSolicitud(id, estado) {
+    try {
+        // Obtener la solicitud original antes de actualizar
+        let solicitudes = await (0, _getJs.getPermisos)();
+        let solicitudOriginal = null;
+        // Buscar la solicitud por ID
+        for(let i = 0; i < solicitudes.length; i++)if (solicitudes[i].id === id) {
+            solicitudOriginal = solicitudes[i];
+            break;
+        }
+        // Si no se encuentra la solicitud, lanza un error
+        if (solicitudOriginal === null) throw new Error("Solicitud no encontrada");
+        // Crear un objeto con todos los datos originales más el nuevo estado
+        let solicitudActualizada = {
+            id: solicitudOriginal.id,
+            usuario: solicitudOriginal.usuario,
+            codigoComputadora: solicitudOriginal.codigoComputadora,
+            fechaSalida: solicitudOriginal.fechaSalida,
+            fechaRegreso: solicitudOriginal.fechaRegreso,
+            estado: estado // Actualizar solo el campo estado
+        };
+        // Enviar la solicitud actualizada al servidor
+        await (0, _putJs.putSolicitud)(id, solicitudActualizada);
+        console.log("Solicitud actualizada:", id, estado);
+        mostrarSolicitudes(); // Recargar solicitudes después de actualizar
+        mostrarHistorial(); // Recargar historial después de actualizar
+    } catch (error) {
+        console.error("Error al actualizar la solicitud:", error);
+    }
+}
 
-},{"../../services/get.js":"ilQdp","../../services/post.js":"gD2oT"}],"ilQdp":[function(require,module,exports) {
+},{"../../services/get.js":"ilQdp","../../services/put.js":"7XAoa"}],"ilQdp":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "GetAdmins", ()=>GetAdmins);
@@ -745,83 +868,46 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"gD2oT":[function(require,module,exports) {
-// import { getUsers } from "./get.js";
-// import { getAdmins } from "./get.js";
+},{}],"7XAoa":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "postUser", ()=>postUser);
-parcelHelpers.export(exports, "postAdmins", ()=>postAdmins);
-parcelHelpers.export(exports, "postPermisos", ()=>postPermisos);
-async function postUser(nombre, correo, password) {
+parcelHelpers.export(exports, "putSolicitud", ()=>putSolicitud) // async function putSolicitud(id, nuevoEstado) {
+ //     try {
+ //         const response = await fetch(`http://localhost:3001/permisos/${id}`, {
+ //             method: 'PUT',
+ //             headers: {
+ //                 'Content-Type': 'application/json'
+ //             },
+ //             body: JSON.stringify({ estado: nuevoEstado }) // Actualiza el estado en el servidor
+ //         });
+ //         if (!response.ok) {
+ //             throw new Error('Error al actualizar el estado');
+ //         }
+ //         return await response.json();
+ //     } catch (error) {
+ //         console.error('Error al actualizar solicitud:', error);
+ //         throw error;
+ //     }
+ // }
+ // export { putSolicitud };
+;
+async function putSolicitud(id, solicitudActualizada) {
     try {
-        let nuevoUsuario = {
-            nombre,
-            correo,
-            password
-        };
-        let response = await fetch("http://localhost:3001/users", {
-            method: "POST",
+        const response = await fetch(`http://localhost:3001/permisos/${id}`, {
+            method: "PUT",
             headers: {
                 "Content-Type": "application/json"
             },
-            body: JSON.stringify(nuevoUsuario)
+            body: JSON.stringify(solicitudActualizada) // Envía la solicitud completa con todos los campos actualizados
         });
-        if (!response.ok) throw new Error("No se pudo guardar el usuario");
-        let data = await response.json();
-        console.log("Usuario guardado con \xe9xito:", data);
+        if (!response.ok) throw new Error("Error al actualizar el estado");
+        return await response.json();
     } catch (error) {
-        console.error("No se pudo guardar el usuario:", error);
-    }
-}
-async function postAdmins(nombre, correo, password) {
-    try {
-        let nuevoAdmin = {
-            nombre,
-            correo,
-            password
-        };
-        let response = await fetch("http://localhost:3001/admins", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify(nuevoAdmin)
-        });
-        if (!response.ok) throw new Error("No se pudo guardar el usuario");
-        let dataAdmin = await response.json();
-        console.log("Usuario guardado con \xe9xito:", dataAdmin);
-        return dataAdmin;
-    } catch (error) {
-        console.error("No se pudo guardar el usuario", error);
-    }
-}
-async function postPermisos(usuario, sede, fechaSalida, fechaRegreso, codigoComputadora, condicionesAceptadas) {
-    try {
-        let Permisos = {
-            usuario,
-            sede,
-            fechaSalida,
-            fechaRegreso,
-            codigoComputadora,
-            condicionesAceptadas
-        };
-        let response = await fetch("http://localhost:3001/permisos", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify(Permisos)
-        });
-        if (!response.ok) throw new Error("No se pudo guardar el usuario");
-        let dataPermisos = await response.json();
-        console.log("permiso guardado con \xe9xito:", Permisos);
-        return dataPermisos;
-    } catch (error) {
-        console.error("No se pudo guardar los permisos", error);
+        console.error("Error al actualizar solicitud:", error);
+        throw error;
     }
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["aEMzq","a9TP5"], "a9TP5", "parcelRequire2e59")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["hVW8J","2QBv6"], "2QBv6", "parcelRequire2e59")
 
-//# sourceMappingURL=Registro.07b8583f.js.map
+//# sourceMappingURL=Administracion.a500a5cb.js.map
