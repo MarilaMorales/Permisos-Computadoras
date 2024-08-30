@@ -54,10 +54,18 @@ enviarBtn.addEventListener('click', async function(event) {
         await postPermisos(usuario, sede , fechaSalida , fechaRegreso , codigoComputadora , condicionesAceptadas);
 
         mostrarModalExito();
+      
        
     } catch (error) {
         console.error('Error al ENVIAR el permiso ', error);
     }
+    usuarioInput.value= "";
+    sedeSelect.value= "";
+    codigoComputadoraInput.value= "";
+    condicionesCheckbox.value= "";
+    fechaSalidaInput.value= "";
+    fechaRegreso.value= "";
 });
+
 
 console.log(enviarBtn);
