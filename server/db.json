@@ -222,6 +222,14 @@
       "condicionesAceptadas": true
     },
     {
+<<<<<<< HEAD
+      "id": "201d",
+      "usuario": "Nicole",
+      "sede": "Sede El Huerto",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-09-02",
+      "codigoComputadora": "12345",
+=======
       "id": "8ba1",
       "usuario": "Sabrina Luna",
       "sede": "Sede Santa Ana",
@@ -237,6 +245,7 @@
       "fechaSalida": "2024-09-01",
       "fechaRegreso": "2024-09-05",
       "codigoComputadora": "FR66",
+>>>>>>> 8cd51219dfbbbaa6b22e936686091cece48e6fc1
       "condicionesAceptadas": true
     }
   ]
