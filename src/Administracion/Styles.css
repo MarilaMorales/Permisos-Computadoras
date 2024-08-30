@@ -18,6 +18,55 @@ body {
   text-align: center;
 }
 
+
+#tituloSolicitudesPen{
+
+  margin-bottom: 1rem;
+  color: #662d91;
+}
+
+.btn-aceptar {
+  background-color: #20bec6 ; 
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+#TituloCelda{
+  color: #296583;
+}
+
+#tituloAdmin{
+  color: #662d91;
+  font-weight: bolder;
+  font-size: 1.7rem;
+
+}
+
+.btn-aceptar:hover {
+  background-color: #12787e ; 
+}
+
+/* Estilo para el botón de rechazar */
+.btn-rechazar {
+  background-color: #ec008c; 
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  margin-left: 0.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-rechazar:hover {
+  background-color: #991b66; /* Rojo más oscuro */
+}
+
+
 .table td {
   text-align: center;
 }

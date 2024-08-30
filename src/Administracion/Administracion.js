@@ -121,6 +121,7 @@ function mostrarEnTabla(solicitudes) {
 
         let botonAceptar = document.createElement("button");
         botonAceptar.textContent = 'Aceptar';  //Agrega los botones a la tabla y el clik
+        botonAceptar.className = 'btn btn-aceptar'; // Clase personalizada
         botonAceptar.onclick = function() {
             actualizarSolicitud(solicitud.id, "aceptado");
         };
@@ -128,6 +129,7 @@ function mostrarEnTabla(solicitudes) {
 
         let botonRechazar = document.createElement("button");
         botonRechazar.textContent = 'Rechazar';
+        botonRechazar.className = 'btn btn-rechazar'; // Clase personalizada
         botonRechazar.onclick = function() {
             actualizarSolicitud(solicitud.id, "rechazado");
         };
