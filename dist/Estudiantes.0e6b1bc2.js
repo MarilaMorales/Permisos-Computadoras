@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"63Iqb":[function(require,module,exports) {
+})({"jmSrp":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -714,7 +714,7 @@ async function postPermisos(usuario, sede, fechaSalida, fechaRegreso, codigoComp
     }
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"6W6Fr"}],"6W6Fr":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -744,6 +744,6 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}]},["63Iqb","ibqNp"], "ibqNp", "parcelRequire2e59")
+},{}]},["jmSrp","ibqNp"], "ibqNp", "parcelRequire2e59")
 
 //# sourceMappingURL=Estudiantes.0e6b1bc2.js.map

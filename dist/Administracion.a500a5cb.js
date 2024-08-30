@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"hVW8J":[function(require,module,exports) {
+})({"eHEDQ":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -586,36 +586,38 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 },{}],"2QBv6":[function(require,module,exports) {
 var _getJs = require("../../services/get.js");
 var _putJs = require("../../services/put.js");
+//Lo que se carga dentro de esto, se ejecuta cuando la apgina cargue totalmente, HTML CSS Scripts Boostrap etc
 window.onload = function() {
-    mostrarSolicitudes();
-    mostrarHistorial(); // Llama a la función para mostrar el historial al cargar
-    // Asignar event listener al botón de búsqueda
+    mostrarSolicitudes(); //Tabla Solicitudes Pendientes
+    mostrarHistorial(); // Tabla Historial de Solicitudes
+    // Asigna eventListener al botón de búsqueda
     let botonBuscar = document.querySelector(".btn-outline-success");
     botonBuscar.addEventListener("click", filtrarSolicitudes);
-    // Asignar event listener al select para filtrar por estado
+    // Asignar eventListener al select para filtrar por estado
     document.getElementById("solicitudSearch").addEventListener("change", function() {
         estadoSelect = this.value.trim();
         filtrarSolicitudes();
     });
-    // Declarar variable estadoSelect
+    // Declarar estadoSelect
     let estadoSelect = "";
     // Asignar event listener al campo de búsqueda para filtrar mientras se escribe
     let inputSearch = document.getElementById("inputSearch");
     inputSearch.addEventListener("input", filtrarSolicitudes);
     // Manejo de la visibilidad de secciones
-    const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
-    const sections = document.querySelectorAll("section");
-    function mostrarSeccion(targetId) {
+    let navLinks = document.querySelectorAll(".navbar-nav .nav-link"); //Selecciona todos los enlaces de navegación en el menú q se usan pa cambiar entre los taps.
+    let sections = document.querySelectorAll("section"); //Igual nada mas que con las secciones
+    //Se usa para navegar entre secciones
+    function mostrarSeccion(seccionId) {
         sections.forEach(function(section) {
-            if (section.id === targetId) section.style.display = "block"; // Mostrar la sección seleccionada
+            if (section.id === seccionId) section.style.display = "block"; // Mostrar la sección seleccionada
             else section.style.display = "none"; // Ocultar las demás secciones
         });
     }
     navLinks.forEach(function(link) {
-        link.addEventListener("click", function(e) {
-            e.preventDefault(); // Prevenir el comportamiento predeterminado del enlace
-            const targetId = link.getAttribute("data-target"); // Obtener el id de la sección desde el data-target
-            mostrarSeccion(targetId);
+        link.addEventListener("click", function(eventoSeccion) {
+            eventoSeccion.preventDefault(); // Prevenir el comportamiento predeterminado del enlace
+            let seccionId = link.getAttribute("data-target"); // Obtener el id de la sección desde el HTML de data-target
+            mostrarSeccion(seccionId);
         });
     });
     // Mostrar la primera sección al cargar la página
@@ -624,9 +626,9 @@ window.onload = function() {
 // Función para mostrar las solicitudes pendientes
 async function mostrarSolicitudes() {
     try {
-        let solicitudes = await (0, _getJs.getPermisos)();
-        let solicitudesPendientes = filtrarPendientes(solicitudes);
-        mostrarEnTabla(solicitudesPendientes);
+        let solicitudes = await (0, _getJs.getPermisos)(); //usa await para esperar a que las Promesas se resuelvan
+        let solicitudesPendientes = filtrarPendientes(solicitudes); //filtra las solicitudes pendientes y las muestra en la tabla.
+        mostrarEnTabla(solicitudesPendientes); // Llama a la función mostrarEnTabla
     } catch (error) {
         console.error("Error al mostrar solicitudes:", error);
     }
@@ -634,9 +636,9 @@ async function mostrarSolicitudes() {
 // Función para mostrar todo el historial
 async function mostrarHistorial() {
     try {
-        let solicitudes = await (0, _getJs.getPermisos)();
-        mostrarHistorialEnTabla(solicitudes);
-        filtrarSolicitudes(); // Filtrar después de mostrar
+        let solicitudes = await (0, _getJs.getPermisos)(); ////usa await para esperar a que las Promesas se resuelvan
+        mostrarHistorialEnTabla(solicitudes); // Llama a la función 
+        filtrarSolicitudes(); // Esto permite aplicar los filtros a la tabla y que muestre solo lo q dicen los filtros
     } catch (error) {
         console.error("Error al mostrar historial:", error);
     }
@@ -669,7 +671,7 @@ function mostrarEnTabla(solicitudes) {
         fila.appendChild(celdaFechaEntrega);
         let celdaAcciones = document.createElement("td");
         let botonAceptar = document.createElement("button");
-        botonAceptar.textContent = "Aceptar";
+        botonAceptar.textContent = "Aceptar"; //Agrega los botones a la tabla y el clik
         botonAceptar.onclick = function() {
             actualizarSolicitud(solicitud.id, "aceptado");
         };
@@ -716,23 +718,23 @@ function mostrarHistorialEnTabla(solicitudes) {
 // Función para filtrar solicitudes en el historial
 function filtrarSolicitudes() {
     // Obtener los valores de entrada
-    let inputSearch = document.getElementById("inputSearch").value.toLowerCase().trim();
+    let inputSearch = document.getElementById("inputSearch").value.toLowerCase().trim(); //Se obtiene lod el Input y se pone en minuscula y elimina espaco¿io
     let estadoSelect = document.getElementById("solicitudSearch").value.trim();
     let fechaInicio = document.getElementById("fechaInicio").value;
     let fechaFinal = document.getElementById("fechaFinal").value;
-    // Convertir fechas a objetos Date si están definidas
+    // Convertir fechas a objetos Date para facilitar comparacion 
     if (fechaInicio) fechaInicio = new Date(fechaInicio);
     else fechaInicio = null;
     if (fechaFinal) fechaFinal = new Date(fechaFinal);
     else fechaFinal = null;
     // Obtener todas las filas del historial
-    let tbody = document.getElementById("Historial").querySelector("tbody");
-    let filas = tbody.getElementsByClassName("filaHistorial");
+    let tbody = document.getElementById("Historial").querySelector("tbody"); // Obtiene el cuerpo de la tabla con id Historial.
+    let filas = tbody.getElementsByClassName("filaHistorial"); //obtiene todas las filas
     // Filtrar filas
-    let filteredRows = [];
+    let filteredRows = []; //Arreglo vacío para almacenar las filas que coinciden con los filtros aplicados.
     for(let i = 0; i < filas.length; i++){
         let fila = filas[i];
-        let nombre = fila.getElementsByClassName("nombre")[0].textContent.toLowerCase().trim();
+        let nombre = fila.getElementsByClassName("nombre")[0].textContent.toLowerCase().trim(); //Obtiene y limpia los valores de nombre y estado de cada fila.
         let estado = fila.getElementsByClassName("estado")[0].textContent.toLowerCase().trim();
         let fechaSalida = new Date(fila.children[2].textContent.trim());
         let fechaRegreso = new Date(fila.children[3].textContent.trim());
@@ -749,7 +751,7 @@ function filtrarSolicitudes() {
         // Agregar fila a la lista de filas filtradas si coincide con los filtros
         if (nombreCoincide && estadoCoincide && fechaDentroRango) filteredRows.push(fila);
     }
-    // Mostrar u ocultar filas según la lista de filas filtradas
+    // Mostrar u ocultar filas según la lista de filas filtradas, se oculta lo que no cumple con lo filtrado
     for(let i = 0; i < filas.length; i++){
         let fila = filas[i];
         if (filteredRows.includes(fila)) fila.style.display = ""; // Mostrar la fila
@@ -761,7 +763,7 @@ async function actualizarSolicitud(id, estado) {
     try {
         // Obtener la solicitud original antes de actualizar
         let solicitudes = await (0, _getJs.getPermisos)();
-        let solicitudOriginal = null;
+        let solicitudOriginal = null; //Variable para almacenar la solicitud que coincide con el ID proporcionado.
         // Buscar la solicitud por ID
         for(let i = 0; i < solicitudes.length; i++)if (solicitudes[i].id === id) {
             solicitudOriginal = solicitudes[i];
@@ -779,7 +781,7 @@ async function actualizarSolicitud(id, estado) {
             estado: estado // Actualizar solo el campo estado
         };
         // Enviar la solicitud actualizada al servidor
-        await (0, _putJs.putSolicitud)(id, solicitudActualizada);
+        await (0, _putJs.putSolicitud)(id, solicitudActualizada); // Llama a la función putSolicitud para enviar la solicitud actualizada al servidor.
         console.log("Solicitud actualizada:", id, estado);
         mostrarSolicitudes(); // Recargar solicitudes después de actualizar
         mostrarHistorial(); // Recargar historial después de actualizar
@@ -838,7 +840,7 @@ async function getPermisos() {
     }
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"6W6Fr"}],"6W6Fr":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -908,6 +910,6 @@ async function putSolicitud(id, solicitudActualizada) {
     }
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["hVW8J","2QBv6"], "2QBv6", "parcelRequire2e59")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"6W6Fr"}]},["eHEDQ","2QBv6"], "2QBv6", "parcelRequire2e59")
 
 //# sourceMappingURL=Administracion.a500a5cb.js.map

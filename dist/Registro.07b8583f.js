@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"aEMzq":[function(require,module,exports) {
+})({"b1eqf":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -588,8 +588,12 @@ var _getJs = require("../../services/get.js");
 var _postJs = require("../../services/post.js");
 let btnEnviar = document.getElementById("btnRegistro");
 let btnEnviarAdmin = document.getElementById("btnEnviarAdmin");
+let mensajeAlert = document.getElementById("mensajeAlert");
+function showMessage(message) {
+    mensajeAlert.innerText = message;
+}
 document.getElementById("loginBtn").addEventListener("click", function() {
-    window.location.href = '"http://http://localhost:1234/Login.html"';
+    window.location.href = "http://http://localhost:1234/Login.html";
 });
 btnEnviar.addEventListener("click", async function(event) {
     event.preventDefault();
@@ -598,7 +602,7 @@ btnEnviar.addEventListener("click", async function(event) {
     let correo = document.getElementById("email").value;
     let password = document.getElementById("password").value;
     if (usuario === "" || correo === "" || password === "") {
-        alert("Por favor, llena todos los campos");
+        showMessage("Por favor, llena todos los campos");
         return;
     }
     // Obtener usuarios desde el servidor
@@ -607,15 +611,14 @@ btnEnviar.addEventListener("click", async function(event) {
     // Verificar si el usuario ya está registrado
     let userExists = users.some((user)=>user.correo === correo);
     if (userExists) {
-        alert("El usuario ya est\xe1 registrado");
+        showMessage("El usuario ya est\xe1 registrado");
         return;
     }
     // Guardar el nuevo usuario en el servidor
     try {
         await (0, _postJs.postUser)(usuario, correo, password);
-        await (0, _postJs.postUser)(usuario, correo, password);
-        alert("Usuario registrado.");
-    // window.location.href = "../LogIn/LogIn.html";
+        showMessage("Usuario registrado.");
+        window.location.href = "http://localhost:1234/Login.html";
     } catch (error) {
         console.error("Error al registrar el usuario", error);
     }
@@ -636,34 +639,32 @@ btnPassword.addEventListener("click", function() {
 });
 btnEnviarAdmin.addEventListener("click", async function(event) {
     event.preventDefault();
-    // Obtener los valores ingresados por el ADministrador
+    // Obtener los valores ingresados por el administrador
     let admin = document.getElementById("usuarioAdmin").value;
     let correoAdmin = document.getElementById("correoAdmin").value;
     let passwordAdmin = document.getElementById("contrasenaAdmin").value;
     if (admin === "" || correoAdmin === "" || passwordAdmin === "") {
-        alert("Por favor, llena todos los campos");
+        showMessage("Por favor, llena todos los campos");
         return;
     }
-    // Obtener usuarios desde el servidor
+    // Obtener administradores desde el servidor
     let admins2 = await (0, _getJs.GetAdmins)();
     console.log(admins2);
-    // Verificar si el usuario ya está registrado
+    // Verificar si el administrador ya está registrado
     let adminExists = admins2.some((admin3)=>admin3.correo === correoAdmin);
     if (adminExists) {
-        alert("El usuario ya est\xe1 registrado");
+        showMessage("El usuario ya est\xe1 registrado");
         return;
     }
-    // Guardar el nuevo usuario en el servidor
+    // Guardar el nuevo administrador en el servidor
     try {
         await (0, _postJs.postAdmins)(admin, correoAdmin, passwordAdmin);
-        alert("Administrador Registrado.");
-    // window.location.href = "../LogIn/LogIn.html";
+        showMessage("Administrador Registrado.");
+        window.location.href = "../LogIn/LogIn.html";
     } catch (error) {
         console.error("Error al registrar Administrador", error);
     }
 });
-let loginBtn = document.getElementById("loginBtn");
-if (loginBtn) loginBtn.addEventListener("click", function name(params) {});
 
 },{"../../services/get.js":"ilQdp","../../services/post.js":"gD2oT"}],"ilQdp":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -715,7 +716,7 @@ async function getPermisos() {
     }
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"6W6Fr"}],"6W6Fr":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -822,6 +823,6 @@ async function postPermisos(usuario, sede, fechaSalida, fechaRegreso, codigoComp
     }
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["aEMzq","a9TP5"], "a9TP5", "parcelRequire2e59")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"6W6Fr"}]},["b1eqf","a9TP5"], "a9TP5", "parcelRequire2e59")
 
 //# sourceMappingURL=Registro.07b8583f.js.map

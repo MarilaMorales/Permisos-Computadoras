@@ -76,6 +76,12 @@
       "nombre": "patricio",
       "correo": "estrella@gmail.com",
       "password": "3322"
+    },
+    {
+      "id": "c063",
+      "nombre": "maria morales",
+      "correo": "maria@gmail,com",
+      "password": "2727"
     }
   ],
   "permisos": [
@@ -204,6 +210,15 @@
       "fechaSalida": "2024-08-30",
       "fechaRegreso": "2024-09-07",
       "codigoComputadora": "FR47",
+      "condicionesAceptadas": true
+    },
+    {
+      "id": "6cdd",
+      "usuario": "Triny Fallas",
+      "sede": "Sede Edunamica Nosara",
+      "fechaSalida": "2024-08-31",
+      "fechaRegreso": "2024-09-04",
+      "codigoComputadora": "WS77",
       "condicionesAceptadas": true
     }
   ]
