@@ -593,6 +593,16 @@ const fechaRegresoInput = document.getElementById("fechaRegreso");
 const codigoComputadoraInput = document.getElementById("codigoComputadora");
 const condicionesCheckbox = document.getElementById("condiciones");
 const enviarBtn = document.getElementById("btnEnviar");
+// Función para mostrar el modal de error
+function mostrarModalError() {
+    const errorModal = document.getElementById("errorModal");
+    $(errorModal).modal("show");
+}
+// Función para mostrar el modal de éxito
+function mostrarModalExito() {
+    const successModal = document.getElementById("successModal");
+    $(successModal).modal("show");
+}
 // Ejemplo de cómo podrías manejar el evento de envío del formulario
 enviarBtn.addEventListener("click", async function(event) {
     event.preventDefault(); // Evita que el formulario se envíe automáticamente
@@ -605,7 +615,7 @@ enviarBtn.addEventListener("click", async function(event) {
     const condicionesAceptadas = condicionesCheckbox.checked;
     // Validación básica
     if (!usuario || !sede || !fechaSalida || !fechaRegreso || !codigoComputadora || !condicionesAceptadas) {
-        alert("Por favor, completa todos los campos y acepta las condiciones.");
+        mostrarModalError();
         return;
     }
     // Lógica adicional para procesar los datos del formulario
@@ -620,7 +630,7 @@ enviarBtn.addEventListener("click", async function(event) {
     });
     try {
         await (0, _postJs.postPermisos)(usuario, sede, fechaSalida, fechaRegreso, codigoComputadora, condicionesAceptadas);
-        alert("PERMISO ENVIADO");
+        mostrarModalExito();
     } catch (error) {
         console.error("Error al ENVIAR el permiso ", error);
     }

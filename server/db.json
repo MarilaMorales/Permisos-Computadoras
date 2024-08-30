@@ -35,16 +35,34 @@
       "password": "1314"
     },
     {
-      "id": "8bd7",
-      "nombre": "goku",
-      "correo": "goku@gmail.com",
-      "password": "3344"
+      "id": "d907",
+      "nombre": "Hilda Juarez",
+      "correo": "hilda@gmail.com",
+      "password": "1212"
     },
     {
-      "id": "47bd",
-      "nombre": "goku",
-      "correo": "goku@gmail.com",
-      "password": "3344"
+      "id": "bfc8",
+      "nombre": "Hilda Juarez",
+      "correo": "hilda@gmail.com",
+      "password": "1212"
+    },
+    {
+      "id": "7d43",
+      "nombre": "Luna gomez",
+      "correo": "luna@gmail.com",
+      "password": "3456"
+    },
+    {
+      "id": "0599",
+      "nombre": "Dino",
+      "correo": "dino@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "e1bf",
+      "nombre": "Rulma",
+      "correo": "rulma@gmail.com",
+      "password": "1234"
     }
   ],
   "admins": [
@@ -62,33 +80,130 @@
   ],
   "permisos": [
     {
-      "id": "10b2"
-    },
-    {
-      "id": "5c5c",
-      "usuario": "Nixon Blanco",
+      "id": "b4ca",
+      "usuario": "Ana Rojas",
       "sede": "Sede El Huerto",
-      "fechaSalida": "2024-08-22",
-      "fechaRegreso": "2024-08-23",
-      "codigoComputadora": "JD667S2",
-      "condicionesAceptadas": true
+      "fechaSalida": "2024-08-27",
+      "fechaRegreso": "2024-08-28",
+      "codigoComputadora": "EW34",
+      "condicionesAceptadas": true,
+      "estado": "aceptado"
     },
     {
-      "id": "84e2",
-      "usuario": "carlos lopez",
-      "sede": "Sede El Huerto",
-      "fechaSalida": "2024-08-22",
-      "fechaRegreso": "2024-08-23",
-      "codigoComputadora": "JD657S2",
-      "condicionesAceptadas": true
-    },
-    {
-      "id": "6436",
-      "usuario": "sheyris davila",
+      "id": "920b",
+      "usuario": "Dina Soli",
       "sede": "Sede Santa Ana",
-      "fechaSalida": "2024-08-23",
-      "fechaRegreso": "2024-08-25",
-      "codigoComputadora": "JD647S2",
+      "fechaSalida": "2024-08-27",
+      "fechaRegreso": "2024-08-29",
+      "codigoComputadora": "PO98",
+      "condicionesAceptadas": true,
+      "estado": "aceptado"
+    },
+    {
+      "id": "cf29",
+      "usuario": "Tonia Lowe",
+      "sede": "Sede Edunamica Nosara",
+      "fechaSalida": "2024-08-26",
+      "fechaRegreso": "2024-08-29",
+      "codigoComputadora": "DE92",
+      "condicionesAceptadas": true,
+      "estado": "aceptado"
+    },
+    {
+      "id": "204c",
+      "usuario": "VE28",
+      "codigoComputadora": "VQ24",
+      "fechaSalida": "2024-08-31",
+      "fechaRegreso": "2024-09-02",
+      "estado": "aceptado"
+    },
+    {
+      "id": "4eb9",
+      "usuario": "Diaz",
+      "codigoComputadora": "FER4",
+      "fechaSalida": "2024-08-13",
+      "fechaRegreso": "2024-08-22",
+      "estado": "rechazado"
+    },
+    {
+      "id": "d96d",
+      "usuario": "Luis Monge",
+      "sede": "Sede El Huerto",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-09-03",
+      "codigoComputadora": "HW71",
+      "condicionesAceptadas": true
+    },
+    {
+      "id": "5964",
+      "usuario": "Rebeca",
+      "sede": "Sede Edunamica Nosara",
+      "fechaSalida": "2024-08-31",
+      "fechaRegreso": "2024-09-03",
+      "codigoComputadora": "VM73",
+      "condicionesAceptadas": true,
+      "estado": "aceptado"
+    },
+    {
+      "id": "c343",
+      "usuario": "Roberto Ruiz",
+      "codigoComputadora": "CR66",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-08-31",
+      "estado": "rechazado"
+    },
+    {
+      "id": "a02b",
+      "usuario": "Tamara Li",
+      "sede": "Sede Santa Ana",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-09-06",
+      "codigoComputadora": "WS12",
+      "condicionesAceptadas": true
+    },
+    {
+      "id": "1c36",
+      "usuario": "Luna Li",
+      "sede": "Sede Santa Ana",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-09-01",
+      "codigoComputadora": "GU29",
+      "condicionesAceptadas": true
+    },
+    {
+      "id": "b79a",
+      "usuario": "Mati fe",
+      "sede": "Sede Santa Ana",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-09-06",
+      "codigoComputadora": "WS155",
+      "condicionesAceptadas": true
+    },
+    {
+      "id": "583a",
+      "usuario": "erin kio",
+      "sede": "Sede Santa Ana",
+      "fechaSalida": "2024-09-01",
+      "fechaRegreso": "2024-09-05",
+      "codigoComputadora": "LO62",
+      "condicionesAceptadas": true
+    },
+    {
+      "id": "2d99",
+      "usuario": "Aria Stark",
+      "sede": "Sede El Huerto",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-09-01",
+      "codigoComputadora": "FC45",
+      "condicionesAceptadas": true
+    },
+    {
+      "id": "dcd7",
+      "usuario": "Dennis",
+      "sede": "Sede Santa Ana",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-09-07",
+      "codigoComputadora": "FR47",
       "condicionesAceptadas": true
     }
   ]

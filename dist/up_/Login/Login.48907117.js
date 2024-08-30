@@ -600,7 +600,7 @@ loginButton.addEventListener("click", async function() {
         if (user) {
             if (user.password === passwordValue) {
                 alert("\xa1\xc9xito! Usuario normal entrando.");
-                window.location.href = "http://http://localhost:1234/Estudiantes.html";
+                window.location.href = "http://localhost:1234/Estudiantes.html";
             } else alert("Contrase\xf1a incorrecta.");
         } else {
             // Si no se encuentra en los usuarios, buscar en la lista de administradores
@@ -608,7 +608,7 @@ loginButton.addEventListener("click", async function() {
             if (useradmin) {
                 if (useradmin.password === passwordValue) {
                     alert("\xa1\xc9xito! Administrador entrando.");
-                    window.location.href = "http://http://localhost:1234/Administracion.html";
+                    window.location.href = "http://localhost:1234/Administracion.html";
                 } else alert("Contrase\xf1a incorrecta para administrador.");
             } else alert("Este usuario no existe.");
         }
@@ -626,8 +626,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "GetAdmins", ()=>GetAdmins);
 parcelHelpers.export(exports, "getUsers", ()=>getUsers);
-parcelHelpers.export(exports, "getPermisos", ()=>getPermisos) //Try merge 2
-;
+parcelHelpers.export(exports, "getPermisos", ()=>getPermisos);
 async function getUsers() {
     try {
         const response = await fetch("http://localhost:3001/users", {
