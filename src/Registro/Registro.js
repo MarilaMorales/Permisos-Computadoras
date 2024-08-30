@@ -10,7 +10,7 @@ function showMessage(message) {
 }
 
 document.getElementById('loginBtn').addEventListener('click', function() {
-    window.location.href = '"http://http://localhost:1234/Login.html"';
+    window.location.href = "http://http://localhost:1234/Login.html";
 });
 
 btnEnviar.addEventListener("click", async function(event) {
