@@ -12,9 +12,6 @@ document.getElementById('loginBtn').addEventListener('click', function() {
 });
 
 
-
-
-
 btnEnviar.addEventListener("click", async function(event) {
     event.preventDefault();
 

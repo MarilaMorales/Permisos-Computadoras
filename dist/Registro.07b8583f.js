@@ -588,6 +588,9 @@ var _getJs = require("../../services/get.js");
 var _postJs = require("../../services/post.js");
 let btnEnviar = document.getElementById("btnRegistro");
 let btnEnviarAdmin = document.getElementById("btnEnviarAdmin");
+document.getElementById("loginBtn").addEventListener("click", function() {
+    window.location.href = '"http://http://localhost:1234/Login.html"';
+});
 btnEnviar.addEventListener("click", async function(event) {
     event.preventDefault();
     // Obtener los valores ingresados por el usuario
@@ -667,8 +670,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "GetAdmins", ()=>GetAdmins);
 parcelHelpers.export(exports, "getUsers", ()=>getUsers);
-parcelHelpers.export(exports, "getPermisos", ()=>getPermisos) //Try merge 2
-;
+parcelHelpers.export(exports, "getPermisos", ()=>getPermisos);
 async function getUsers() {
     try {
         const response = await fetch("http://localhost:3001/users", {

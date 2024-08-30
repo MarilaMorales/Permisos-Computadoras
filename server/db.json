@@ -53,10 +53,10 @@
       "password": "3456"
     },
     {
-      "id": "ffe9",
-      "nombre": "Luna gomez",
-      "correo": "luna@gmail.com",
-      "password": "3456"
+      "id": "0599",
+      "nombre": "Dino",
+      "correo": "dino@gmail.com",
+      "password": "1234"
     }
   ],
   "admins": [
@@ -104,38 +104,47 @@
       "estado": "aceptado"
     },
     {
-      "estado": "rechazado",
-      "id": "81b8"
+      "id": "204c",
+      "usuario": "VE28",
+      "codigoComputadora": "VQ24",
+      "fechaSalida": "2024-08-31",
+      "fechaRegreso": "2024-09-02",
+      "estado": "aceptado"
     },
     {
-      "estado": "rechazado",
-      "id": "2a33"
+      "id": "4eb9",
+      "usuario": "Diaz",
+      "codigoComputadora": "FER4",
+      "fechaSalida": "2024-08-13",
+      "fechaRegreso": "2024-08-22",
+      "estado": "rechazado"
     },
     {
-      "estado": "rechazado",
-      "id": "e9e8"
+      "id": "d96d",
+      "usuario": "Luis Monge",
+      "sede": "Sede El Huerto",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-09-03",
+      "codigoComputadora": "HW71",
+      "condicionesAceptadas": true
     },
     {
-      "estado": "aceptado",
-      "id": "e863"
-    },
-    {
-      "id": "8fb9",
-      "usuario": "Gilo Yu",
+      "id": "5964",
+      "usuario": "Rebeca",
       "sede": "Sede Edunamica Nosara",
+      "fechaSalida": "2024-08-31",
+      "fechaRegreso": "2024-09-03",
+      "codigoComputadora": "VM73",
+      "condicionesAceptadas": true,
+      "estado": "aceptado"
+    },
+    {
+      "id": "c343",
+      "usuario": "Roberto Ruiz",
+      "codigoComputadora": "CR66",
       "fechaSalida": "2024-08-30",
       "fechaRegreso": "2024-08-31",
-      "codigoComputadora": "RE51",
-      "condicionesAceptadas": true
-    },
-    {
-      "id": "1f43",
-      "usuario": "Lios Fallas",
-      "sede": "Sede Santa Ana",
-      "fechaSalida": "2024-08-31",
-      "fechaRegreso": "2024-09-01",
-      "codigoComputadora": "TE91",
-      "condicionesAceptadas": true
+      "estado": "rechazado"
     }
   ]
 }

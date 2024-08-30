@@ -626,8 +626,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "GetAdmins", ()=>GetAdmins);
 parcelHelpers.export(exports, "getUsers", ()=>getUsers);
-parcelHelpers.export(exports, "getPermisos", ()=>getPermisos) //Try merge 2
-;
+parcelHelpers.export(exports, "getPermisos", ()=>getPermisos);
 async function getUsers() {
     try {
         const response = await fetch("http://localhost:3001/users", {

@@ -6,24 +6,47 @@ window.onload = function() {
     mostrarHistorial(); // Llama a la función para mostrar el historial al cargar
 
     // Asignar event listener al botón de búsqueda
-    document.querySelector('.btn-outline-success').addEventListener('click', filtrarSolicitudes);
+    let botonBuscar = document.querySelector('.btn-outline-success');
+    botonBuscar.addEventListener('click', filtrarSolicitudes);
 
     // Asignar event listener al select para filtrar por estado
     document.getElementById('solicitudSearch').addEventListener('change', function() {
         estadoSelect = this.value.trim();
         filtrarSolicitudes();
-      });
+    });
 
-     
+    // Declarar variable estadoSelect
     let estadoSelect = '';
 
     // Asignar event listener al campo de búsqueda para filtrar mientras se escribe
     let inputSearch = document.getElementById('inputSearch');
     inputSearch.addEventListener('input', filtrarSolicitudes);
+
+    // Manejo de la visibilidad de secciones
+    const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+    const sections = document.querySelectorAll('section');
+
+    function mostrarSeccion(targetId) {
+        sections.forEach(function(section) {
+            if (section.id === targetId) {
+                section.style.display = 'block'; // Mostrar la sección seleccionada
+            } else {
+                section.style.display = 'none'; // Ocultar las demás secciones
+            }
+        });
+    }
+
+    navLinks.forEach(function(link) {
+        link.addEventListener('click', function(e) {
+            e.preventDefault(); // Prevenir el comportamiento predeterminado del enlace
+            const targetId = link.getAttribute('data-target'); // Obtener el id de la sección desde el data-target
+            mostrarSeccion(targetId);
+        });
+    });
+
+    // Mostrar la primera sección al cargar la página
+    mostrarSeccion('solicitudesPendientes');
 };
-
-
-
 
 // Función para mostrar las solicitudes pendientes
 async function mostrarSolicitudes() {
@@ -138,203 +161,112 @@ function mostrarHistorialEnTabla(solicitudes) {
     }
 }
 
-
-
-
-
 // Función para filtrar solicitudes en el historial
+function filtrarSolicitudes() {
+    // Obtener los valores de entrada
+    let inputSearch = document.getElementById('inputSearch').value.toLowerCase().trim();
+    let estadoSelect = document.getElementById('solicitudSearch').value.trim();
+    let fechaInicio = document.getElementById('fechaInicio').value;
+    let fechaFinal = document.getElementById('fechaFinal').value;
 
-filtrarSolicitudes()
+    // Convertir fechas a objetos Date si están definidas
+    if (fechaInicio) {
+        fechaInicio = new Date(fechaInicio);
+    } else {
+        fechaInicio = null;
+    }
+  
+    if (fechaFinal) {
+        fechaFinal = new Date(fechaFinal);
+    } else {
+        fechaFinal = null;
+    }
 
+    // Obtener todas las filas del historial
+    let tbody = document.getElementById('Historial').querySelector('tbody');
+    let filas = tbody.getElementsByClassName('filaHistorial');
 
+    // Filtrar filas
+    let filteredRows = [];
+    for (let i = 0; i < filas.length; i++) {
+        let fila = filas[i];
+        let nombre = fila.getElementsByClassName('nombre')[0].textContent.toLowerCase().trim();
+        let estado = fila.getElementsByClassName('estado')[0].textContent.toLowerCase().trim();
+        let fechaSalida = new Date(fila.children[2].textContent.trim());
+        let fechaRegreso = new Date(fila.children[3].textContent.trim());
 
-async function filtrarSolicitudes() {
-    try {
-        let solicitudes = await getPermisos();
+        // Verificar si el nombre coincide con la búsqueda
+        let nombreCoincide = nombre.includes(inputSearch);
 
-        let aceptadas = solicitudes.filter((element) => element.estado == 'aprobada');
-        let rechazadas = solicitudes.filter((element) => element.estado == 'rechazada');
-
-        console.log(aceptadas);
-        console.log(rechazadas);
-
-        // Ahora obtén los valores de entrada para filtrar
-        let inputSearch = document.getElementById('inputSearch').value.toLowerCase().trim();
-        let estadoSelect = document.getElementById('solicitudSearch').value.trim();
-        let fechaInicio = document.getElementById('fechaInicio').value;
-        let fechaFinal = document.getElementById('fechaFinal').value;
-
-        // Convertir fechas a objetos Date si están definidas
-        if (fechaInicio) {
-            fechaInicio = new Date(fechaInicio);
+        // Verificar el estado
+        let estadoCoincide = false;
+        if (estadoSelect === 'todos') {
+            estadoCoincide = true; // Mostrar todas las solicitudes si se selecciona 'todos'
         } else {
-            fechaInicio = null;
+            estadoCoincide = estado === estadoSelect; // Comparar el estado de la fila con el seleccionado
         }
 
-        if (fechaFinal) {
-            fechaFinal = new Date(fechaFinal);
-        } else {
-            fechaFinal = null;
+        // Verificar si la fecha de salida y regreso están dentro del rango especificado
+        let fechaDentroRango = true;
+
+        if (fechaInicio && fechaSalida < fechaInicio) {
+            fechaDentroRango = false;
         }
 
-        // Filtrar solicitudes según el estado seleccionado
-        let solicitudesFiltradas = [];
-        if (estadoSelect === 'aprobada') {
-            solicitudesFiltradas = aceptadas;
-        } else if (estadoSelect === 'rechazada') {
-            solicitudesFiltradas = rechazadas;
-        } else {
-            solicitudesFiltradas = solicitudes;
+        if (fechaFinal && fechaRegreso > fechaFinal) {
+            fechaDentroRango = false;
         }
 
-        // Aplicar filtros adicionales por nombre y fecha
-        solicitudesFiltradas = solicitudesFiltradas.filter(solicitud => {
-            let nombre = solicitud.nombre.toLowerCase().trim();
-            let fechaSalida = new Date(solicitud.fechaSalida);
-            let fechaRegreso = new Date(solicitud.fechaEntrega);
+        // Agregar fila a la lista de filas filtradas si coincide con los filtros
+        if (nombreCoincide && estadoCoincide && fechaDentroRango) {
+            filteredRows.push(fila);
+        }
+    }
 
-            let nombreCoincide = nombre.includes(inputSearch);
-
-            let fechaDentroRango = true;
-            if (fechaInicio && fechaSalida < fechaInicio) {
-                fechaDentroRango = false;
-            }
-            if (fechaFinal && fechaRegreso > fechaFinal) {
-                fechaDentroRango = false;
-            }
-
-            return nombreCoincide && fechaDentroRango;
-        });
-
-        // Mostrar las solicitudes filtradas en la tabla
-        let tbody = document.getElementById('Historial').querySelector('tbody');
-        tbody.innerHTML = ''; // Limpiar la tabla antes de agregar los nuevos resultados
-
-        solicitudesFiltradas.forEach(solicitud => {
-            let fila = document.createElement('tr');
-            fila.classList.add('filaHistorial');
-
-            fila.innerHTML = `
-                <td class="nombre">${solicitud.nombre}</td>
-                <td>${solicitud.codigoComputadora}</td>
-                <td>${solicitud.fechaSalida}</td>
-                <td>${solicitud.fechaEntrega}</td>
-                <td class="estado">${solicitud.estado}</td>
-            `;
-
-            tbody.appendChild(fila);
-        });
-
-    } catch (error) {
-        console.error('Error al mostrar historial:', error);
+    // Mostrar u ocultar filas según la lista de filas filtradas
+    for (let i = 0; i < filas.length; i++) {
+        let fila = filas[i];
+        if (filteredRows.includes(fila)) {
+            fila.style.display = ''; // Mostrar la fila
+        } else {
+            fila.style.display = 'none'; // Ocultar la fila
+        }
     }
 }
-
-// Event listener para el botón de buscar
-
-
-
-
-
-
-
-
-
-// async function filtrarSolicitudes() {
-//     try {
-//         let solicitudes = await getPermisos();
-
-//         let aceptadas = solicitudes.filter((element) => element.estado == 'aceptado')
-//         let rechazadas = solicitudes.filter((element) => element.estado == 'rechazado')
-
-//         console.log(aceptadas);
-//         console.log(rechazadas);
-        
-//     } catch (error) {
-//         console.error('Error al mostrar historial:', error);
-//     }
-
-// //   // Obtener los valores de entrada
-
-//   let inputSearch = document.getElementById('inputSearch').value.toLowerCase().trim();
-//   let estadoSelect = document.getElementById('solicitudSearch').value.trim();
-//   let fechaInicio = document.getElementById('fechaInicio').value;
-//   let fechaFinal = document.getElementById('fechaFinal').value;
-
-//   // Convertir fechas a objetos Date si están definidas
-//   if (fechaInicio) {
-//     fechaInicio = new Date(fechaInicio);
-//   } else {
-//     fechaInicio = null;
-//   }
-  
-//   if (fechaFinal) {
-//     fechaFinal = new Date(fechaFinal);
-//   } else {
-//     fechaFinal = null;
-//   }
-
-//   // Obtener todas las filas del historial
-//   let tbody = document.getElementById('Historial').querySelector('tbody');
-//   let filas = tbody.getElementsByClassName('filaHistorial');
-
-//   // Filtrar filas
-//   let filteredRows = [];
-//   for (let i = 0; i < filas.length; i++) {
-//     let fila = filas[i];
-//     let nombre = fila.getElementsByClassName('nombre')[0].textContent.toLowerCase().trim();
-//     let estado = fila.getElementsByClassName('estado')[0].textContent.toLowerCase().trim();
-//     let fechaSalida = new Date(fila.children[2].textContent.trim());
-//     let fechaRegreso = new Date(fila.children[3].textContent.trim());
-
-//     // Verificar si el nombre coincide con la búsqueda
-//     let nombreCoincide = nombre.includes(inputSearch);
-
-//     // Verificar el estado
-//     let estadoCoincide = false;
-//     if (estadoSelect.value === 'todos') {
-//       estadoCoincide = true; // Mostrar todas las solicitudes si se selecciona 'todos'
-//     } else {
-//       estadoCoincide = estado === estadoSelect; // Comparar el estado de la fila con el seleccionado
-//     }
-
-//     // Verificar si la fecha de salida y regreso están dentro del rango especificado
-//     let fechaDentroRango = true;
-
-//     if (fechaInicio && fechaSalida < fechaInicio) {
-//       fechaDentroRango = false;
-//     }
-
-//     if (fechaFinal && fechaRegreso > fechaFinal) {
-//       fechaDentroRango = false;
-//     }
-
-//     // Agregar fila a la lista de filas filtradas si coincide con los filtros
-//     if (nombreCoincide && estadoCoincide && fechaDentroRango) {
-//       filteredRows.push(fila);
-//     }
-//   }
-
-//   // Mostrar u ocultar filas según la lista de filas filtradas
-//   for (let i = 0; i < filas.length; i++) {
-//     let fila = filas[i];
-//     if (filteredRows.includes(fila)) {
-//       fila.style.display = ''; // Mostrar la fila
-//     } else {
-//       fila.style.display = 'none'; // Ocultar la fila
-//     }
-//   }
-// }
-
-
-
-
-
 
 // Función para actualizar una solicitud
 async function actualizarSolicitud(id, estado) {
     try {
-        await putSolicitud(id, { estado: estado });
+        // Obtener la solicitud original antes de actualizar
+        let solicitudes = await getPermisos();
+        let solicitudOriginal = null;
+
+        // Buscar la solicitud por ID
+        for (let i = 0; i < solicitudes.length; i++) {
+            if (solicitudes[i].id === id) {
+                solicitudOriginal = solicitudes[i];
+                break;
+            }
+        }
+
+        // Si no se encuentra la solicitud, lanza un error
+        if (solicitudOriginal === null) {
+            throw new Error('Solicitud no encontrada');
+        }
+
+        // Crear un objeto con todos los datos originales más el nuevo estado
+        let solicitudActualizada = {
+            id: solicitudOriginal.id,
+            usuario: solicitudOriginal.usuario,
+            codigoComputadora: solicitudOriginal.codigoComputadora,
+            fechaSalida: solicitudOriginal.fechaSalida,
+            fechaRegreso: solicitudOriginal.fechaRegreso,
+            estado: estado // Actualizar solo el campo estado
+        };
+
+        // Enviar la solicitud actualizada al servidor
+        await putSolicitud(id, solicitudActualizada);
+
         console.log('Solicitud actualizada:', id, estado);
         mostrarSolicitudes(); // Recargar solicitudes después de actualizar
         mostrarHistorial(); // Recargar historial después de actualizar
@@ -342,39 +274,6 @@ async function actualizarSolicitud(id, estado) {
         console.error('Error al actualizar la solicitud:', error);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

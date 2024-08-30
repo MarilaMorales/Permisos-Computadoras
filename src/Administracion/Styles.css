@@ -1,8 +1,86 @@
+/* Estilo para el body */
 body {
-    display: flex;
-    justify-content: center;
-    min-height: 100vh;
-    background: url("../Registro/img/Fondo de Pantalla.png");
-    background-size: cover;
-    background-position: center;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background: url("../Registro/img/Fondo de Pantalla.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Ajustes para las tablas */
+.table {
+  background: #ffffff;
+  border-radius: 0.5rem;
+}
+
+.table th {
+  text-align: center;
+}
+
+.table td {
+  text-align: center;
+}
+
+/* Espaciado y márgenes para secciones */
+section {
+  margin-bottom: 2rem;
+}
+
+
+.search-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem; 
+}
+
+.search-bar input[type="search"]{
+  margin: 0;
+}
+
+.search-bar select{
+  margin: 0;
+
+}
+
+.search-bar input[type="date"]{
+
+  margin: 0;
+}
+
+.search-bar button {
+  margin: 0;
+}
+
+.search-bar .form-control,
+.search-bar .form-select {
+  max-width: 200px;
+}
+
+/* Navbar styling */
+.navbar {
+  width: 100%; 
+  position: fixed; 
+  top: 0;
+  left: 0;
+  z-index: 1030; 
+}
+
+.navbar-brand {
+  margin-left: 1rem;
+}
+
+.navbar-nav {
+  margin-left: auto; /* Alinear los enlaces a la derecha */
+  margin-right: 1rem;
+}
+
+.navbar-nav .nav-link {
+  margin-left: 1rem; /* Espacio entre los enlaces */
+}
+
+/* Ajustes para el contenido debajo del navbar */
+.container {
+  padding-top: 4.5rem; 
+}

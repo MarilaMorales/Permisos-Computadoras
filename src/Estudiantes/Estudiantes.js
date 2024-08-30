@@ -9,6 +9,8 @@ const codigoComputadoraInput = document.getElementById('codigoComputadora');
 const condicionesCheckbox = document.getElementById('condiciones');
 const enviarBtn = document.getElementById("btnEnviar")
 
+
+
 // Ejemplo de cómo podrías manejar el evento de envío del formulario
 enviarBtn.addEventListener('click', async function(event) {
     event.preventDefault(); // Evita que el formulario se envíe automáticamente
