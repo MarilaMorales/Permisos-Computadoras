@@ -57,6 +57,12 @@
       "nombre": "Dino",
       "correo": "dino@gmail.com",
       "password": "1234"
+    },
+    {
+      "id": "e1bf",
+      "nombre": "Rulma",
+      "correo": "rulma@gmail.com",
+      "password": "1234"
     }
   ],
   "admins": [
@@ -145,6 +151,60 @@
       "fechaSalida": "2024-08-30",
       "fechaRegreso": "2024-08-31",
       "estado": "rechazado"
+    },
+    {
+      "id": "a02b",
+      "usuario": "Tamara Li",
+      "sede": "Sede Santa Ana",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-09-06",
+      "codigoComputadora": "WS12",
+      "condicionesAceptadas": true
+    },
+    {
+      "id": "1c36",
+      "usuario": "Luna Li",
+      "sede": "Sede Santa Ana",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-09-01",
+      "codigoComputadora": "GU29",
+      "condicionesAceptadas": true
+    },
+    {
+      "id": "b79a",
+      "usuario": "Mati fe",
+      "sede": "Sede Santa Ana",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-09-06",
+      "codigoComputadora": "WS155",
+      "condicionesAceptadas": true
+    },
+    {
+      "id": "583a",
+      "usuario": "erin kio",
+      "sede": "Sede Santa Ana",
+      "fechaSalida": "2024-09-01",
+      "fechaRegreso": "2024-09-05",
+      "codigoComputadora": "LO62",
+      "condicionesAceptadas": true
+    },
+    {
+      "id": "2d99",
+      "usuario": "Aria Stark",
+      "sede": "Sede El Huerto",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-09-01",
+      "codigoComputadora": "FC45",
+      "condicionesAceptadas": true
+    },
+    {
+      "id": "dcd7",
+      "usuario": "Dennis",
+      "sede": "Sede Santa Ana",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-09-07",
+      "codigoComputadora": "FR47",
+      "condicionesAceptadas": true
     }
   ]
 }

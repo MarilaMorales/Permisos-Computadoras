@@ -593,11 +593,33 @@ window.onload = function() {
     let botonBuscar = document.querySelector(".btn-outline-success");
     botonBuscar.addEventListener("click", filtrarSolicitudes);
     // Asignar event listener al select para filtrar por estado
-    let selectEstado = document.getElementById("solicitudSearch");
-    selectEstado.addEventListener("change", filtrarSolicitudes);
+    document.getElementById("solicitudSearch").addEventListener("change", function() {
+        estadoSelect = this.value.trim();
+        filtrarSolicitudes();
+    });
+    // Declarar variable estadoSelect
+    let estadoSelect = "";
     // Asignar event listener al campo de búsqueda para filtrar mientras se escribe
     let inputSearch = document.getElementById("inputSearch");
     inputSearch.addEventListener("input", filtrarSolicitudes);
+    // Manejo de la visibilidad de secciones
+    const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+    const sections = document.querySelectorAll("section");
+    function mostrarSeccion(targetId) {
+        sections.forEach(function(section) {
+            if (section.id === targetId) section.style.display = "block"; // Mostrar la sección seleccionada
+            else section.style.display = "none"; // Ocultar las demás secciones
+        });
+    }
+    navLinks.forEach(function(link) {
+        link.addEventListener("click", function(e) {
+            e.preventDefault(); // Prevenir el comportamiento predeterminado del enlace
+            const targetId = link.getAttribute("data-target"); // Obtener el id de la sección desde el data-target
+            mostrarSeccion(targetId);
+        });
+    });
+    // Mostrar la primera sección al cargar la página
+    mostrarSeccion("solicitudesPendientes");
 };
 // Función para mostrar las solicitudes pendientes
 async function mostrarSolicitudes() {
@@ -614,6 +636,7 @@ async function mostrarHistorial() {
     try {
         let solicitudes = await (0, _getJs.getPermisos)();
         mostrarHistorialEnTabla(solicitudes);
+        filtrarSolicitudes(); // Filtrar después de mostrar
     } catch (error) {
         console.error("Error al mostrar historial:", error);
     }
@@ -649,16 +672,12 @@ function mostrarEnTabla(solicitudes) {
         botonAceptar.textContent = "Aceptar";
         botonAceptar.onclick = function() {
             actualizarSolicitud(solicitud.id, "aceptado");
-            mostrarSolicitudes(); // Recargar solicitudes después de actualizar
-            mostrarHistorial(); // Recargar historial después de actualizar
         };
         celdaAcciones.appendChild(botonAceptar);
         let botonRechazar = document.createElement("button");
         botonRechazar.textContent = "Rechazar";
         botonRechazar.onclick = function() {
             actualizarSolicitud(solicitud.id, "rechazado");
-            mostrarSolicitudes(); // Recargar solicitudes después de actualizar
-            mostrarHistorial(); // Recargar historial después de actualizar
         };
         celdaAcciones.appendChild(botonRechazar);
         fila.appendChild(celdaAcciones);
@@ -698,7 +717,6 @@ function mostrarHistorialEnTabla(solicitudes) {
 function filtrarSolicitudes() {
     // Obtener los valores de entrada
     let inputSearch = document.getElementById("inputSearch").value.toLowerCase().trim();
-    // let estadoSelect = document.getElementById('solicitudSearch').value.toLowerCase().trim();
     let estadoSelect = document.getElementById("solicitudSearch").value.trim();
     let fechaInicio = document.getElementById("fechaInicio").value;
     let fechaFinal = document.getElementById("fechaFinal").value;
@@ -710,7 +728,8 @@ function filtrarSolicitudes() {
     // Obtener todas las filas del historial
     let tbody = document.getElementById("Historial").querySelector("tbody");
     let filas = tbody.getElementsByClassName("filaHistorial");
-    // Iterar sobre cada fila
+    // Filtrar filas
+    let filteredRows = [];
     for(let i = 0; i < filas.length; i++){
         let fila = filas[i];
         let nombre = fila.getElementsByClassName("nombre")[0].textContent.toLowerCase().trim();
@@ -727,20 +746,45 @@ function filtrarSolicitudes() {
         let fechaDentroRango = true;
         if (fechaInicio && fechaSalida < fechaInicio) fechaDentroRango = false;
         if (fechaFinal && fechaRegreso > fechaFinal) fechaDentroRango = false;
-        // Mostrar u ocultar la fila basada en los filtros
-        if (nombreCoincide && estadoCoincide && fechaDentroRango) fila.style.display = ""; // Mostrar la fila
+        // Agregar fila a la lista de filas filtradas si coincide con los filtros
+        if (nombreCoincide && estadoCoincide && fechaDentroRango) filteredRows.push(fila);
+    }
+    // Mostrar u ocultar filas según la lista de filas filtradas
+    for(let i = 0; i < filas.length; i++){
+        let fila = filas[i];
+        if (filteredRows.includes(fila)) fila.style.display = ""; // Mostrar la fila
         else fila.style.display = "none"; // Ocultar la fila
     }
 }
 // Función para actualizar una solicitud
 async function actualizarSolicitud(id, estado) {
     try {
-        await (0, _putJs.putSolicitud)(id, {
-            estado: estado
-        });
+        // Obtener la solicitud original antes de actualizar
+        let solicitudes = await (0, _getJs.getPermisos)();
+        let solicitudOriginal = null;
+        // Buscar la solicitud por ID
+        for(let i = 0; i < solicitudes.length; i++)if (solicitudes[i].id === id) {
+            solicitudOriginal = solicitudes[i];
+            break;
+        }
+        // Si no se encuentra la solicitud, lanza un error
+        if (solicitudOriginal === null) throw new Error("Solicitud no encontrada");
+        // Crear un objeto con todos los datos originales más el nuevo estado
+        let solicitudActualizada = {
+            id: solicitudOriginal.id,
+            usuario: solicitudOriginal.usuario,
+            codigoComputadora: solicitudOriginal.codigoComputadora,
+            fechaSalida: solicitudOriginal.fechaSalida,
+            fechaRegreso: solicitudOriginal.fechaRegreso,
+            estado: estado // Actualizar solo el campo estado
+        };
+        // Enviar la solicitud actualizada al servidor
+        await (0, _putJs.putSolicitud)(id, solicitudActualizada);
         console.log("Solicitud actualizada:", id, estado);
+        mostrarSolicitudes(); // Recargar solicitudes después de actualizar
+        mostrarHistorial(); // Recargar historial después de actualizar
     } catch (error) {
-        console.error("Error al acutlizar NO SIRVEEEEEEEEEE", error);
+        console.error("Error al actualizar la solicitud:", error);
     }
 }
 

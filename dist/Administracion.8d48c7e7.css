@@ -1,7 +1,61 @@
 body {
-  background: url("Fondo de Pantalla.1946422f.png") center / cover;
-  justify-content: center;
+  background: url("Fondo de Pantalla.1946422f.png") center / cover no-repeat fixed;
+  flex-direction: column;
+  align-items: center;
   min-height: 100vh;
   display: flex;
+}
+
+.table {
+  background: #fff;
+  border-radius: .5rem;
+}
+
+.table th, .table td {
+  text-align: center;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+.search-bar {
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .6rem;
+  display: flex;
+}
+
+.search-bar input[type="search"], .search-bar select, .search-bar input[type="date"], .search-bar button {
+  margin: 0;
+}
+
+.search-bar .form-control, .search-bar .form-select {
+  max-width: 200px;
+}
+
+.navbar {
+  z-index: 1030;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.navbar-brand {
+  margin-left: 1rem;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
+.navbar-nav .nav-link {
+  margin-left: 1rem;
+}
+
+.container {
+  padding-top: 4.5rem;
 }
 /*# sourceMappingURL=Administracion.8d48c7e7.css.map */
