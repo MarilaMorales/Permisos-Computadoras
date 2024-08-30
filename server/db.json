@@ -33,6 +33,18 @@
       "nombre": "sheyris",
       "correo": "sheyris@gmail.com",
       "password": "1314"
+    },
+    {
+      "id": "8bd7",
+      "nombre": "goku",
+      "correo": "goku@gmail.com",
+      "password": "3344"
+    },
+    {
+      "id": "47bd",
+      "nombre": "goku",
+      "correo": "goku@gmail.com",
+      "password": "3344"
     }
   ],
   "admins": [
