@@ -63,6 +63,12 @@
       "nombre": "Rulma",
       "correo": "rulma@gmail.com",
       "password": "1234"
+    },
+    {
+      "id": "dce4",
+      "nombre": "Isla Torres",
+      "correo": "torres@gmail.com",
+      "password": "1234"
     }
   ],
   "admins": [
@@ -82,6 +88,12 @@
       "nombre": "maria morales",
       "correo": "maria@gmail,com",
       "password": "2727"
+    },
+    {
+      "id": "2135",
+      "nombre": "Denis Luna",
+      "correo": "dennis@gmail.com",
+      "password": "1234"
     }
   ],
   "permisos": [
@@ -134,11 +146,10 @@
     {
       "id": "d96d",
       "usuario": "Luis Monge",
-      "sede": "Sede El Huerto",
+      "codigoComputadora": "HW71",
       "fechaSalida": "2024-08-30",
       "fechaRegreso": "2024-09-03",
-      "codigoComputadora": "HW71",
-      "condicionesAceptadas": true
+      "estado": "aceptado"
     },
     {
       "id": "5964",
@@ -161,11 +172,10 @@
     {
       "id": "a02b",
       "usuario": "Tamara Li",
-      "sede": "Sede Santa Ana",
+      "codigoComputadora": "WS12",
       "fechaSalida": "2024-08-30",
       "fechaRegreso": "2024-09-06",
-      "codigoComputadora": "WS12",
-      "condicionesAceptadas": true
+      "estado": "rechazado"
     },
     {
       "id": "1c36",
@@ -222,30 +232,21 @@
       "condicionesAceptadas": true
     },
     {
-<<<<<<< HEAD
       "id": "201d",
       "usuario": "Nicole",
       "sede": "Sede El Huerto",
       "fechaSalida": "2024-08-30",
       "fechaRegreso": "2024-09-02",
       "codigoComputadora": "12345",
-=======
-      "id": "8ba1",
-      "usuario": "Sabrina Luna",
-      "sede": "Sede Santa Ana",
-      "fechaSalida": "2024-09-01",
-      "fechaRegreso": "2024-09-05",
-      "codigoComputadora": "VX412",
       "condicionesAceptadas": true
     },
     {
-      "id": "dfec",
-      "usuario": "Clara Gonza",
-      "sede": "Sede Edunamica Nosara",
-      "fechaSalida": "2024-09-01",
+      "id": "5a78",
+      "usuario": "Carolina Holmes",
+      "sede": "Sede El Huerto",
+      "fechaSalida": "2024-08-31",
       "fechaRegreso": "2024-09-05",
-      "codigoComputadora": "FR66",
->>>>>>> 8cd51219dfbbbaa6b22e936686091cece48e6fc1
+      "codigoComputadora": "RE34",
       "condicionesAceptadas": true
     }
   ]

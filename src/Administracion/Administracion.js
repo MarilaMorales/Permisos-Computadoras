@@ -121,7 +121,7 @@ function mostrarEnTabla(solicitudes) {
 
         let botonAceptar = document.createElement("button");
         botonAceptar.textContent = 'Aceptar';  //Agrega los botones a la tabla y el clik
-        botonAceptar.className = 'btn btn-aceptar'; // Clase personalizada
+        botonAceptar.className = 'btn btn-aceptar'; // Clase personalizada para CSS
         botonAceptar.onclick = function() {
             actualizarSolicitud(solicitud.id, "aceptado");
         };
